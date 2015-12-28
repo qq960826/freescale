@@ -21,4 +21,4 @@
           android:icon="@android:drawable/ic_menu_mylocation"
           android:title="@string/discoverable" />
 </menu>
-<!-- From: file:/Users/wzq/项目/freescale/code/BluetoothChat/app/src/main/res/menu/option_menu.xml -->
+<!-- From: file:/Users/wzq/项目/freescale/code/android/BluetoothChat/app/src/main/res/menu/option_menu.xml -->
