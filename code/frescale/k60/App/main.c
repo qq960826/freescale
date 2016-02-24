@@ -25,7 +25,7 @@
 #define pin_accelerometer1_X ADC1_SE4a//E0
 #define pin_accelerometer1_Y ADC1_SE5a//E1
 #define pin_accelerometer1_Z ADC1_SE6a//E2
-#define pin_accelerometer1_zero ADC1_SE6a//E3
+#define pin_gyroscope1_AR2 ADC1_SE7a//E3
 
 
 //开始变量声明
@@ -40,12 +40,12 @@ long long accelerometer2_Z;
 long long accelerometer2_zero;
 
 //两个陀螺仪
-long long gyroscope1_X;
-long long gyroscope1_Y;
-long long gyroscope1_Z;
-long long gyroscope2_X;
-long long gyroscope2_Y;
-long long gyroscope2_Z;
+long long gyroscope1_AR1;
+long long gyroscope1_AR2;
+long long gyroscope1_AR3;
+long long gyroscope2_AR1;
+long long gyroscope2_AR2;
+long long gyroscope2_AR3;
 
 //两个双路PWM
 long long motor1_pwm1;
@@ -80,7 +80,7 @@ void init(){
   adc_init(pin_accelerometer1_X);//陀螺仪1加速度计X,E0
   adc_init(pin_accelerometer1_Y);//陀螺仪1加速度计Y,E1
   adc_init(pin_accelerometer1_Z);//陀螺仪1加速度计Z,E2
-  adc_init(pin_accelerometer1_zero);//陀螺仪1加速度计zero,E3
+  adc_init(pin_gyroscope1_AR2);//陀螺仪1加速度计zero,E3
 
   
 //UART_init
@@ -94,16 +94,19 @@ void sensor_accelerator_read(){
   accelerometer1_X=adc_once(pin_accelerometer1_X,ADC_16bit);
   accelerometer1_Y=adc_once(pin_accelerometer1_Y,ADC_16bit);
   accelerometer1_Z=adc_once(pin_accelerometer1_Z,ADC_16bit);
-    accelerometer1_zero=adc_once(pin_accelerometer1_zero,ADC_16bit);
+   gyroscope1_AR2=adc_once(pin_gyroscope1_AR2,ADC_16bit);
 
   
 }
 void sensor_accelerator_calculate(){
-  float vol_x,vol_y,vol_z,angle;
+  
+  float vol_x,vol_y,vol_z,angle,vol_gyro;
+  vol_gyro=((float)gyroscope1_AR2/65535)*3.3-1.35;
+  vol_gyro=vol_gyro*1000*0.67;
   vol_x=((float)accelerometer1_X/65535)*3.3-1.65;
   vol_y=((float)accelerometer1_Y/65535)*3.3-1.65;
   vol_z=((float)accelerometer1_Z/65535)*3.3-1.65;
-  angle=(atan(vol_z/sqrt(vol_x*vol_x+vol_y*vol_y))/3.1415926)*180;
+  angle=(atan(vol_z / sqrt(vol_x * vol_x + vol_y * vol_y)) / 3.1415) * 180;;
 
 }
 
