@@ -1939,7 +1939,7 @@
         </option>
         <option>
           <name>OGLastSavedByProductVersion</name>
-          <state>6.30.1.53141</state>
+          <state>6.50.6.4952</state>
         </option>
         <option>
           <name>GeneralEnableMisra</name>
@@ -3708,6 +3708,9 @@
   </configuration>
   <group>
     <name>App</name>
+    <file>
+      <name>$PROJ_DIR$\..\..\App\init.c</name>
+    </file>
     <file>
       <name>$PROJ_DIR$\..\..\App\main.c</name>
     </file>

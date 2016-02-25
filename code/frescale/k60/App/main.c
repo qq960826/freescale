@@ -77,9 +77,9 @@ iii++;
 }
 void init(){
 //ADC_init
-  adc_init(pin_accelerometer1_X);//陀螺仪1加速度计X,E0
-  adc_init(pin_accelerometer1_Y);//陀螺仪1加速度计Y,E1
-  adc_init(pin_accelerometer1_Z);//陀螺仪1加速度计Z,E2
+  adc_init(pin_accelerometer1_X);//加速度计1加速度计X,E0
+  adc_init(pin_accelerometer1_Y);//加速度计1加速度计Y,E1
+  adc_init(pin_accelerometer1_Z);//加速度计1加速度计Z,E2
   adc_init(pin_gyroscope1_AR2);//陀螺仪1加速度计zero,E3
 
   
@@ -106,7 +106,12 @@ void sensor_accelerator_calculate(){
   vol_x=((float)accelerometer1_X/65535)*3.3-1.65;
   vol_y=((float)accelerometer1_Y/65535)*3.3-1.65;
   vol_z=((float)accelerometer1_Z/65535)*3.3-1.65;
-  angle=(atan(vol_z / sqrt(vol_x * vol_x + vol_y * vol_y)) / 3.1415) * 180;;
+  angle=(atan(vol_z / sqrt(vol_x * vol_x + vol_y * vol_y)) / 3.1415) * 180;
+  
+  //char *buffer;
+  printf("%d\n",(int)angle);
+  //buffer=sprintf("%d\n",(int)angle);
+  //uart_putstr(UART0,buffer);
 
 }
 
@@ -114,6 +119,7 @@ void  main(void)
 {
   
   init();
+  micros();
       //FTM_QUAD_Init(FTM1);                                    //FTM1 正交解码初始化（所用的管脚可查 vcan_port_cfg.h ）
 //FTM_Input_init(FTM0, FTM_CH6, FTM_Falling,FTM_PS_1);
 //port_init_NoALT(FTM0_CH6 ,PULLUP); //配置端口为上拉(保留原先的复用配置)
@@ -122,6 +128,9 @@ void  main(void)
   while(1){
   sensor_accelerator_read();
   sensor_accelerator_calculate();
+  
+  //printf("test");
+  
   }
 
  
