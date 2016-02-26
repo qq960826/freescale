@@ -19,15 +19,13 @@
 #include "port_cfg.h"
 #include "include.h"
 #include "MK60_ftm.h"
+#include "init.h"
 #define BUFF_SIZE   100
 
-//引脚定义
-#define pin_accelerometer1_X ADC1_SE4a//E0
-#define pin_accelerometer1_Y ADC1_SE5a//E1
-#define pin_accelerometer1_Z ADC1_SE6a//E2
-#define pin_gyroscope1_AR2 ADC1_SE7a//E3
 
-
+   
+unsigned long long time_last,time_now;
+int flag_accelerometer=0;
 //开始变量声明
 //两个加速度计
 long long accelerometer1_X;
@@ -58,6 +56,10 @@ long long omron_encoder1;
 long long omron_encoder2;
 
 //结束变量声明
+
+extern unsigned long long system_time_ms;
+float angle;
+
 /*!
  *  @brief      main函数
  *  @since      v5.0
@@ -75,21 +77,7 @@ FTM0_STATUS = 0x00;
 iii++;
 
 }
-void init(){
-//ADC_init
-  adc_init(pin_accelerometer1_X);//加速度计1加速度计X,E0
-  adc_init(pin_accelerometer1_Y);//加速度计1加速度计Y,E1
-  adc_init(pin_accelerometer1_Z);//加速度计1加速度计Z,E2
-  adc_init(pin_gyroscope1_AR2);//陀螺仪1加速度计zero,E3
 
-  
-//UART_init
-  uart_init(UART0,9600);//D6=RX,D7=TX
-  
-  
-//PTM_Init
-  
-}
 void sensor_accelerator_read(){
   accelerometer1_X=adc_once(pin_accelerometer1_X,ADC_16bit);
   accelerometer1_Y=adc_once(pin_accelerometer1_Y,ADC_16bit);
@@ -100,16 +88,30 @@ void sensor_accelerator_read(){
 }
 void sensor_accelerator_calculate(){
   
-  float vol_x,vol_y,vol_z,angle,vol_gyro;
+  float vol_x,vol_y,vol_z,angle_accZ,vol_gyro;
+  float delta;
+  
+  
+  time_last=time_now;
+  time_now=mills();
+  delta=time_now-time_last;
   vol_gyro=((float)gyroscope1_AR2/65535)*3.3-1.35;
-  vol_gyro=vol_gyro*1000*0.67;
+  vol_gyro=vol_gyro*0.67;
   vol_x=((float)accelerometer1_X/65535)*3.3-1.65;
   vol_y=((float)accelerometer1_Y/65535)*3.3-1.65;
   vol_z=((float)accelerometer1_Z/65535)*3.3-1.65;
-  angle=(atan(vol_z / sqrt(vol_x * vol_x + vol_y * vol_y)) / 3.1415) * 180;
+  angle_accZ=(atan(vol_z / sqrt(vol_x * vol_x + vol_y * vol_y)) / 3.1415) * 180;
+  
+  if(flag_accelerometer==0){
+  angle=-angle_accZ;
+  flag_accelerometer=1;
+  return;
+  }
+  angle= (angle +vol_gyro * (delta/1000))*0.95-0.05*angle_accZ;
   
   //char *buffer;
-  printf("%d\n",(int)angle);
+  //printf("%d\n",(int)angle);
+  //printf("%lld\n",system_time_ms);
   //buffer=sprintf("%d\n",(int)angle);
   //uart_putstr(UART0,buffer);
 
@@ -118,8 +120,12 @@ void sensor_accelerator_calculate(){
 void  main(void)
 {
   
-  init();
-  micros();
+  car_init();
+  
+
+  
+  
+  //micros();
       //FTM_QUAD_Init(FTM1);                                    //FTM1 正交解码初始化（所用的管脚可查 vcan_port_cfg.h ）
 //FTM_Input_init(FTM0, FTM_CH6, FTM_Falling,FTM_PS_1);
 //port_init_NoALT(FTM0_CH6 ,PULLUP); //配置端口为上拉(保留原先的复用配置)

@@ -19,7 +19,7 @@ TracePortSize=0x00000004
 [FlashMemory]
 FlashEraseSelection=0 1            
 [DebugChecksum]
-Checksum=-150977464
+Checksum=1626944756
 [CallStack]
 ShowArgs=0
 [Disassembly]
