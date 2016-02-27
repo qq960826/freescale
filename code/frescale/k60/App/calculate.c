@@ -1,7 +1,7 @@
 #include "math.h"
 #include "io.h"
-#define kp_motor 100
-#define ki_motor 16//1
+#define kp_motor 15
+#define ki_motor 4//1
 #define kd_motor 8//10 
 extern unsigned long long time_last,time_now;
 extern int flag_accelerometer;
@@ -77,12 +77,14 @@ void sensor_accelerator_calculate(){
 }
 void motor_right_pid(){
   long error,d_error,dd_error;
-  error = motor_right_ideal_speed - omron_encoder_left_now;
+  error = motor_right_ideal_speed - (omron_encoder_right_now-omron_encoder_right_last);
   d_error = error - motor_right_pre_error;
   dd_error = d_error - motor_right_pre_d_error;
   motor_right_pre_error = error;
   motor_right_pre_d_error = d_error;
-  motor_right_pk = kp_motor * d_error + ki_motor * error + kd_motor * dd_error;
+  motor_right_pk +=kp_motor * d_error + ki_motor * error + kd_motor * dd_error;
+
+  //motor_right_pk = kp_motor * d_error + ki_motor * error ;
   pwm_right_write(motor_right_pk);
 }
 void motor_left_pid(){
@@ -92,6 +94,6 @@ void motor_left_pid(){
   dd_error = d_error - motor_right_pre_d_error;
   motor_right_pre_error = error;
   motor_right_pre_d_error = d_error;
-  motor_right_pk = kp_motor * d_error + ki_motor * error + kd_motor * dd_error;
+  motor_right_pk = kp_motor * d_error + ki_motor * error ;
   pwm_left_write(motor_right_pk);
 }
