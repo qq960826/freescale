@@ -6,21 +6,29 @@
 #define pin_accelerometer1_X ADC1_SE4a//E0
 #define pin_accelerometer1_Y ADC1_SE5a//E1
 #define pin_accelerometer1_Z ADC1_SE6a//E2
-
+#define pin_PWM_right1 FTM_CH0//A10
+#define pin_PWM_right2 FTM_CH1//A11
 #define pin_gyroscope1_AR2 ADC1_SE7a//E3
 
+
+extern long long omron_encoder_left_now;
+extern long long omron_encoder_left_last;
+extern long long omron_encoder_right_now;
+extern long long omron_encoder_right_last;
+
 //#define 
-unsigned long long system_time_ms;
-long long omrom_encoder1=0;
+extern  unsigned long long system_time_ms;
 void pit_hander_time_recoder(){
   PIT_Flag_Clear(PIT0);
   system_time_ms++;
 }
 void pit_hander_omron_encoder(){
+  if(omron_encoder_right_now>1<<29) omron_encoder_right_now=0;//防止溢出
+  omron_encoder_right_last=omron_encoder_right_now;
+  omron_encoder_right_now+=FTM_QUAD_get(FTM1);
   PIT_Flag_Clear(PIT1);
-  omrom_encoder1+=FTM_QUAD_get(FTM1);
   FTM_QUAD_clean(FTM1);
-  printf("%lld\n",omrom_encoder1);
+  //printf("%lld\n",omrom_encoder1);
 
 }
 unsigned long long mills(){
@@ -39,7 +47,16 @@ void car_init(){
   uart_init(UART0,9600);//D6=RX,D7=TX
   
   
-//PTM_Init
+//PWM_Init
+  FTM_PWM_init(FTM2,pin_PWM_right1,10*1000,0);
+  FTM_PWM_init(FTM2,pin_PWM_right2,10*1000,0);
+  
+  
+  pwm_right_write(300);
+  
+  
+  
+  
   
   //FTM_init
   FTM_QUAD_Init(FTM1);                                    //FTM1 正交解码初始化（所用的管脚可查 vcan_port_cfg.h ）
@@ -54,7 +71,7 @@ void car_init(){
   enable_irq(PIT0_IRQn);
   
   //计时器二，计算速度
-  pit_init_ms(PIT1,500);
+  pit_init_us(PIT1,1000);
   set_vector_handler(PIT1_VECTORn,pit_hander_omron_encoder);
   enable_irq(PIT1_IRQn);
   

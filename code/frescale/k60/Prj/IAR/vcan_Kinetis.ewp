@@ -3709,7 +3709,16 @@
   <group>
     <name>App</name>
     <file>
+      <name>$PROJ_DIR$\..\..\App\calculate.c</name>
+    </file>
+    <file>
       <name>$PROJ_DIR$\..\..\App\init.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\App\init.h</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\App\io.c</name>
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\App\main.c</name>
