@@ -45,7 +45,7 @@ void pwm_right_write(int pwm){
   if(pwm>-1000&&pwm<=0){
     motor_right_pwm1=-pwm;motor_right_pwm2=0;
   }
-  FTM_PWM_Duty(FTM2,pin_PWM_right1,motor_right_pwm1);
-  FTM_PWM_Duty(FTM2,pin_PWM_right2,motor_right_pwm2);
+  FTM_PWM_Duty(FTM0,pin_PWM_right1,motor_right_pwm1);
+  FTM_PWM_Duty(FTM0,pin_PWM_right2,motor_right_pwm2);
   
 }

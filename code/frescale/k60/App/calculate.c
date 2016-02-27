@@ -38,11 +38,19 @@ extern long long omron_encoder_right_last;
 //结束变量声明
 
 
-long speed_error; //理想与实际速度偏差值
-long pre_error; //速度PID 前一次的速度误差值ideal_speed- pulse_count
-long pre_d_error; //速度PID 前一次的速度误差之差d_error-pre_d_error?
-long ideal_speed=10;
-long pk=0;
+long motor_right_speed_error; //理想与实际速度偏差值
+long motor_right_pre_error; //速度PID 前一次的速度误差值ideal_speed- pulse_count
+long motor_right_pre_d_error; //速度PID 前一次的速度误差之差d_error-pre_d_error?
+long motor_right_ideal_speed=-20;
+long motor_right_pk=0;
+
+
+long motor_left_speed_error; //理想与实际速度偏差值
+long motor_left_pre_error; //速度PID 前一次的速度误差值ideal_speed- pulse_count
+long motor_left_pre_d_error; //速度PID 前一次的速度误差之差d_error-pre_d_error?
+long motor_left_ideal_speed=-20;
+long motor_left_pk=0;
+
 
 extern unsigned long long system_time_ms;
 extern float angle;
@@ -69,12 +77,21 @@ void sensor_accelerator_calculate(){
 }
 void motor_right_pid(){
   long error,d_error,dd_error;
-  error = ideal_speed - omron_encoder_left_now;
-  d_error = error - pre_error;
-  dd_error = d_error - pre_d_error;
-  pre_error = error;
-  pre_d_error = d_error;
-  pk = kp_motor * d_error + ki_motor * error + kd_motor * dd_error;
-  pwm_right_write(pk);
-
+  error = motor_right_ideal_speed - omron_encoder_left_now;
+  d_error = error - motor_right_pre_error;
+  dd_error = d_error - motor_right_pre_d_error;
+  motor_right_pre_error = error;
+  motor_right_pre_d_error = d_error;
+  motor_right_pk = kp_motor * d_error + ki_motor * error + kd_motor * dd_error;
+  pwm_right_write(motor_right_pk);
+}
+void motor_left_pid(){
+  long error,d_error,dd_error;
+  error = motor_right_ideal_speed - omron_encoder_left_now;
+  d_error = error - motor_right_pre_error;
+  dd_error = d_error - motor_right_pre_d_error;
+  motor_right_pre_error = error;
+  motor_right_pre_d_error = d_error;
+  motor_right_pk = kp_motor * d_error + ki_motor * error + kd_motor * dd_error;
+  pwm_left_write(motor_right_pk);
 }
