@@ -41,6 +41,13 @@ void car_init(){
   adc_init(pin_accelerometer1_Z);//加速度计1加速度计Z,E2
   adc_init(pin_gyroscope1_AR2);//陀螺仪1加速度计zero,E3
 
+  adc_init(pin_electromagnet_L1);//
+  adc_init(pin_electromagnet_L2);//
+  adc_init(pin_electromagnet_L3);//
+  adc_init(pin_electromagnet_L4);// 
+  adc_init(pin_electromagnet_L5);//
+  adc_init(pin_electromagnet_L6);// 
+  
   
 //UART_init
   uart_init(pin_uart,9600);//D6=RX,D7=TX
@@ -52,20 +59,6 @@ void car_init(){
   FTM_PWM_init(FTM0,pin_PWM_left1,10*1000,0);
   FTM_PWM_init(FTM0,pin_PWM_left2,10*1000,100);
 
-
-
-   //FTM_PWM_init(FTM0,FTM_CH4,10*1000,100);
-
-
-      
-  
-  
-  //pwm_right_write(300);
-  
-  
-  
-  
-  
   //FTM_init
   FTM_QUAD_Init(FTM1);                                    //FTM1 正交解码初始化（所用的管脚可查 vcan_port_cfg.h ）
   FTM_QUAD_Init(FTM2);

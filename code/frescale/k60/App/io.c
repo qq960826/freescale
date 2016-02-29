@@ -2,22 +2,16 @@
 #include "common.h"
 #include "port_cfg.h"
 #include "include.h"
+//加速度计
 extern long long accelerometer1_X;
 extern long long accelerometer1_Y;
 extern long long accelerometer1_Z;
 extern long long accelerometer1_zero;
-extern long long accelerometer2_X;
-extern long long accelerometer2_Y;
-extern long long accelerometer2_Z;
-extern long long accelerometer2_zero;
 
-//两个陀螺仪
+//陀螺仪
 extern long long gyroscope1_AR1;
 extern long long gyroscope1_AR2;
 extern long long gyroscope1_AR3;
-extern long long gyroscope2_AR1;
-extern long long gyroscope2_AR2;
-extern long long gyroscope2_AR3;
 
 //两个双路PWM
 extern long long motor_left_pwm1;
@@ -25,11 +19,29 @@ extern long long motor_left_pwm2;
 extern long long motor_right_pwm1;
 extern long long motor_right_pwm2;
 
+//电磁传感器
+extern long long electromagnet_L1;
+extern long long electromagnet_L2;
+extern long long electromagnet_L3;
+extern long long electromagnet_L4;
+extern long long electromagnet_L5;
+extern long long electromagnet_L6;
+
+
 void sensor_accelerator_read(){
   accelerometer1_X=adc_once(pin_accelerometer1_X,ADC_16bit);
   accelerometer1_Y=adc_once(pin_accelerometer1_Y,ADC_16bit);
   accelerometer1_Z=adc_once(pin_accelerometer1_Z,ADC_16bit);
   gyroscope1_AR2=adc_once(pin_gyroscope1_AR2,ADC_16bit);
+}
+void sensor_electromagnet_read(){
+  electromagnet_L1=adc_once(pin_electromagnet_L1,ADC_16bit);
+  electromagnet_L2=adc_once(pin_electromagnet_L2,ADC_16bit);
+  electromagnet_L3=adc_once(pin_electromagnet_L3,ADC_16bit);
+  electromagnet_L4=adc_once(pin_electromagnet_L4,ADC_16bit);
+  electromagnet_L5=adc_once(pin_electromagnet_L5,ADC_16bit);
+  electromagnet_L6=adc_once(pin_electromagnet_L6,ADC_16bit);
+
 }
 void pwm_right_write(int pwm){
   

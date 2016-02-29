@@ -32,18 +32,11 @@ long long accelerometer1_X;
 long long accelerometer1_Y;
 long long accelerometer1_Z;
 long long accelerometer1_zero;
-long long accelerometer2_X;
-long long accelerometer2_Y;
-long long accelerometer2_Z;
-long long accelerometer2_zero;
 
 //两个陀螺仪
 long long gyroscope1_AR1;
 long long gyroscope1_AR2;
 long long gyroscope1_AR3;
-long long gyroscope2_AR1;
-long long gyroscope2_AR2;
-long long gyroscope2_AR3;
 
 //两个双路PWM
 long long motor_left_pwm1;
@@ -58,6 +51,15 @@ long long omron_encoder_right_now=0;
 long long omron_encoder_right_last=0;
 //结束IO操作变量声明
 
+//电磁传感器
+
+long long electromagnet_L1;
+long long electromagnet_L2;
+long long electromagnet_L3;
+long long electromagnet_L4;
+long long electromagnet_L5;
+long long electromagnet_L6;
+
 
 
 //开始计算变量声明
@@ -68,16 +70,19 @@ float angle;
 void  main(void)
 {
   
+  OLED_Init();
+  OLED_Fill(0x00);//黑屏
   car_init();
-  
-pwm_left_write(100);
+  OLED_P8x16Str(5,0,"test");
   while(1){
-  sensor_accelerator_read();
-  sensor_accelerator_calculate();
-  motor_left_pid(10);
-  motor_right_pid(10);
+  //sensor_accelerator_read();
+  //sensor_accelerator_calculate();
+  //motor_left_pid(10);
+  //motor_right_pid(10);
   
-  printf("%lld\n",omron_encoder_left_now-omron_encoder_left_last);
+  //sensor_electromagnet_read();
+  
+ // printf("%lld\n",electromagnet_L6);
   
   }
 

@@ -8,12 +8,15 @@
 #define pin_gyroscope1_AR1 ADC0_SE17//E24
 #define pin_gyroscope1_AR2 ADC1_SE7a//E3
 
-//¼ÓËÙ¶È£¬ÍÓÂÝÒÇ2
-#define pin_accelerometer2_X ADC1_SE9//PTB1
-#define pin_accelerometer2_Y ADC1_SE10//PTB4
-#define pin_accelerometer2_Z ADC1_SE11//PTB5
-#define pin_gyroscope2_AR1 ADC1_SE12//PTB6
-#define pin_gyroscope2_AR2 ADC1_SE13//PTB7
+//µç´Å´«¸ÐÆ÷
+#define pin_electromagnet_L1 ADC1_SE9//PTB1
+#define pin_electromagnet_L2 ADC1_SE10//PTB4
+#define pin_electromagnet_L3 ADC1_SE11//PTB5
+#define pin_electromagnet_L4 ADC1_SE12//PTB6
+#define pin_electromagnet_L5 ADC1_SE13//PTB7
+#define pin_electromagnet_L6 ADC1_SE14//PTB10
+
+
 
 //Å·Ä·Áú±àÂëÆ÷ÓÒ
 #define pin_encoder_right_A FTM1_QDPHA//PTA12
@@ -32,7 +35,13 @@
 #define pin_PWM_left1 FTM_CH1//C2£¬FTM0_CH1
 #define pin_PWM_left2 FTM_CH2//C3£¬FTM0_CH2
 
-//
+//OLED
+#define pin_OLED_D0  PTC4_OUT//D0
+#define pin_OLED_D1  PTC5_OUT//D1
+#define pin_OLED_RST  PTC6_OUT
+#define pin_OLED_DC   PTC7_OUT
+#define pin_OLED_CS   PTC8_OUT
+
 #endif
 void car_init();
 void pit_hander_time_recoder();

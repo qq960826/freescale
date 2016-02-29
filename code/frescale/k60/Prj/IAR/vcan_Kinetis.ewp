@@ -3736,7 +3736,13 @@
       <name>$PROJ_DIR$\..\..\App\Inc\MK60_it.h</name>
     </file>
     <file>
+      <name>$PROJ_DIR$\..\..\App\OLED.C</name>
+    </file>
+    <file>
       <name>$PROJ_DIR$\..\..\App\Inc\PORT_cfg.h</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\App\sdcard.c</name>
     </file>
   </group>
   <group>
