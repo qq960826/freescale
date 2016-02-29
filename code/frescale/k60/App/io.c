@@ -49,3 +49,22 @@ void pwm_right_write(int pwm){
   FTM_PWM_Duty(FTM0,pin_PWM_right2,motor_right_pwm2);
   
 }
+
+void pwm_left_write(int pwm){
+  
+  if(pwm>=1000){ 
+    motor_left_pwm1=0;motor_left_pwm2=1000;
+  }
+  if(pwm<=-1000){ 
+    motor_left_pwm1=1000;motor_left_pwm2=0;
+  }
+  if(pwm<1000&&pwm>0){
+    motor_left_pwm1=0;motor_left_pwm2=pwm;
+  }
+  if(pwm>-1000&&pwm<=0){
+    motor_left_pwm1=-pwm;motor_left_pwm2=0;
+  }
+  FTM_PWM_Duty(FTM0,pin_PWM_left1,motor_left_pwm1);
+  FTM_PWM_Duty(FTM0,pin_PWM_left2,motor_left_pwm2);
+  
+}

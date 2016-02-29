@@ -19,22 +19,18 @@ TracePortSize=0x00000004
 [FlashMemory]
 FlashEraseSelection=0 1            
 [DebugChecksum]
-Checksum=1256934822
+Checksum=155048374
 [CallStack]
 ShowArgs=0
 [Disassembly]
 MixedMode=1
-[Disassemble mode]
-mode=0
-[Breakpoints2]
-Count=0
 [Log file]
 LoggingEnabled=_ 0
 LogFile=_ ""
 Category=_ 0
-[Aliases]
-Count=0
-SuppressDialog=0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
 [Trace1]
 Enabled=0
 ShowSource=1
@@ -46,6 +42,11 @@ Mode=1
 Graph=0
 Symbiont=0
 Exclusions=
-[TermIOLog]
-LoggingEnabled=_ 0
-LogFile=_ ""
+[Disassemble mode]
+mode=0
+[Breakpoints2]
+Bp0=_ 1 "EMUL_CODE" "{$PROJ_DIR$\..\..\App\init.c}.53.3" 0 0 1 "" 0 "" 0
+Count=1
+[Aliases]
+Count=0
+SuppressDialog=0

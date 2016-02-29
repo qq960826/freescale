@@ -70,13 +70,14 @@ void  main(void)
   
   car_init();
   
-
+pwm_left_write(100);
   while(1){
   sensor_accelerator_read();
   sensor_accelerator_calculate();
-  motor_right_pid();
+  motor_left_pid(10);
+  motor_right_pid(10);
   
-  printf("%lld\n",omron_encoder_right_now-omron_encoder_right_last);
+  printf("%lld\n",omron_encoder_left_now-omron_encoder_left_last);
   
   }
 
