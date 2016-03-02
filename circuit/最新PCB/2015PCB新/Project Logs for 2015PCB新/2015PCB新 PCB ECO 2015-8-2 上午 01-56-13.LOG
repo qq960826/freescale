@@ -1,0 +1,124 @@
+Removed Pin From Net: NetName=12V Pin=C1-1
+Removed Pin From Net: NetName=GND Pin=C1-2
+Removed Pin From Net: NetName=7.2V Pin=C13-1
+Removed Pin From Net: NetName=GND Pin=C15-1
+Removed Pin From Net: NetName=7.2V Pin=C15-2
+Removed Pin From Net: NetName=GND Pin=C16-1
+Removed Pin From Net: NetName=5V(S) Pin=C16-2
+Removed Pin From Net: NetName=12V Pin=C17-1
+Removed Pin From Net: NetName=7.2V Pin=C18-1
+Removed Pin From Net: NetName=5V(D) Pin=C19-1
+Removed Pin From Net: NetName=GND Pin=C20-1
+Removed Pin From Net: NetName=7.2V Pin=C20-2
+Removed Pin From Net: NetName=GND Pin=C21-1
+Removed Pin From Net: NetName=5V(D) Pin=C21-2
+Removed Pin From Net: NetName=12V Pin=C22-1
+Removed Pin From Net: NetName=GND Pin=C22-2
+Removed Pin From Net: NetName=5V(S) Pin=H1-1
+Removed Pin From Net: NetName=5V(S) Pin=H1-2
+Removed Pin From Net: NetName=5V(S) Pin=H1-3
+Removed Pin From Net: NetName=5V(S) Pin=H1-4
+Removed Pin From Net: NetName=GND Pin=H3-1
+Removed Pin From Net: NetName=3.3V Pin=H3-2
+Removed Pin From Net: NetName=GND Pin=H3-3
+Removed Pin From Net: NetName=5V(D) Pin=H3-4
+Removed Pin From Net: NetName=5V(S) Pin=H3-5
+Removed Pin From Net: NetName=7.2V Pin=S2-1
+Removed Pin From Net: NetName=GND Pin=TVS-1
+Removed Pin From Net: NetName=7.2V Pin=TVS-2
+Removed Pin From Net: NetName=7.2V Pin=U3-1
+Removed Pin From Net: NetName=GND Pin=U3-2
+Removed Pin From Net: NetName=5V(S) Pin=U3-3
+Removed Pin From Net: NetName=5V(S) Pin=U5-1
+Removed Pin From Net: NetName=GND Pin=U5-3
+Removed Pin From Net: NetName=12V Pin=U5-4
+Removed Pin From Net: NetName=7.2V Pin=U6-1
+Removed Pin From Net: NetName=5V(D) Pin=U6-3
+Removed Pin From Net: NetName=5V(S) Pin=U7-14
+Removed Member From Class: ClassName=2015PCBÐÂ Member=C26
+Removed Member From Class: ClassName=2015PCBÐÂ Member=C26
+Change Component Footprint: Designator=H3 Old Footprint=HEADER5 New Footprint=HEADER3X2
+Change Component Footprint: Designator=C13 Old Footprint=PCBComponent_1 New Footprint=1206
+Change Component Footprint: Designator=C14 Old Footprint=PCBComponent_1 New Footprint=1206
+Change Component Footprint: Designator=C16 Old Footprint=PCBComponent_1 New Footprint=1206
+Change Component Footprint: Designator=C17 Old Footprint=PCBComponent_1 New Footprint=1206
+Change Component Footprint: Designator=C18 Old Footprint=PCBComponent_1 New Footprint=1206
+Change Component Footprint: Designator=C19 Old Footprint=PCBComponent_1 New Footprint=1206
+Change Component Footprint: Designator=C15 Old Footprint=PCBComponent_1 New Footprint=c0805
+Change Component Footprint: Designator=C20 Old Footprint=PCBComponent_1 New Footprint=c0805
+Change Component Footprint: Designator=C21 Old Footprint=PCBComponent_1 New Footprint=c0805
+Change Component Footprint: Designator=U6 Old Footprint=PCBComponent_1 New Footprint=SO-8
+Change Component Footprint: Designator=U5 Old Footprint=PCBComponent_1 - duplicate New Footprint=SO-8
+Change Component Comment : Designator=R11 Old Comment=10 New Comment=10K
+Change Component Comment : Designator=U5 Old Comment=0512 New Comment=TPS7350
+Change Component Comment : Designator=C16 Old Comment=Cap New Comment=10uF
+Change Component Comment : Designator=C21 Old Comment=Cap New Comment=104
+Change Component Comment : Designator=C20 Old Comment=Cap New Comment=104
+Change Component Comment : Designator=C15 Old Comment=Cap New Comment=104
+Change Component Comment : Designator=C19 Old Comment=Cap Pol1_1 New Comment=10uF
+Change Component Comment : Designator=C18 Old Comment=Cap Pol1_1 New Comment=10uF
+Change Component Comment : Designator=C17 Old Comment=Cap Pol1_1 New Comment=10uF
+Change Component Comment : Designator=C14 Old Comment=Cap Pol1_1 New Comment=10uF
+Change Component Comment : Designator=C13 Old Comment=Cap Pol1_1 New Comment=10uF
+Change Component Comment : Designator=H3 Old Comment=HEADER New Comment=HEADER3X2
+Change Component Comment : Designator=U6 Old Comment=LM2940 New Comment=TPS7333
+Change Component Designator: OldDesignator=+ NewDesignator=BATERY1
+Change Component Designator: OldDesignator=C23 NewDesignator=C22
+Change Component Designator: OldDesignator=C24 NewDesignator=C23
+Change Component Designator: OldDesignator=C25 NewDesignator=C24
+Change Component Designator: OldDesignator=C26 NewDesignator=C25
+Change Component Designator: OldDesignator=TVS NewDesignator=erjiguan1
+Change Component Designator: OldDesignator=U4 NewDesignator=U3
+Added Component: Designator=U4(SO-8)
+Added Pin To Net: NetName=7.2V Pin=C1-1
+Added Pin To Net: NetName=5V(S) Pin=C15-1
+Added Pin To Net: NetName=GND Pin=C15-2
+Added Pin To Net: NetName=GND Pin=C16-2
+Added Pin To Net: NetName=5V(D) Pin=C17-1
+Added Pin To Net: NetName=5V(D) Pin=C20-1
+Added Pin To Net: NetName=GND Pin=C20-2
+Added Pin To Net: NetName=GND Pin=C21-2
+Added Pin To Net: NetName=5V(3) Pin=H1-1
+Added Pin To Net: NetName=5V(3) Pin=H1-2
+Added Pin To Net: NetName=5V(3) Pin=H1-3
+Added Pin To Net: NetName=5V(3) Pin=H1-4
+Added Pin To Net: NetName=5V(S) Pin=H3-1
+Added Pin To Net: NetName=5V(D) Pin=H3-2
+Added Pin To Net: NetName=5V(3) Pin=H3-3
+Added Pin To Net: NetName=GND Pin=H3-4
+Added Pin To Net: NetName=3.3V Pin=H3-6
+Added Pin To Net: NetName=GND Pin=U4-1
+Added Pin To Net: NetName=GND Pin=U4-2
+Added Pin To Net: NetName=5V(S) Pin=U4-5
+Added Pin To Net: NetName=5V(S) Pin=U4-6
+Added Pin To Net: NetName=5V(S) Pin=U4-7
+Added Pin To Net: NetName=GND Pin=U5-1
+Added Pin To Net: NetName=5V(D) Pin=U5-5
+Added Pin To Net: NetName=5V(D) Pin=U5-6
+Added Pin To Net: NetName=5V(D) Pin=U5-7
+Added Pin To Net: NetName=GND Pin=U6-1
+Added Pin To Net: NetName=5V(D) Pin=U7-14
+Change Net Name : Old Net Name=5V(D) New Net Name=5V(B)
+Change Net Name : Old Net Name=NetC24_1 New Net Name=NetC23_1
+Change Net Name : Old Net Name=NetC24_2 New Net Name=NetC23_2
+Change Net Name : Old Net Name=NetC25_1 New Net Name=NetC24_1
+Change Net Name : Old Net Name=NetC25_2 New Net Name=NetC24_2
+Added Pin To Net: NetName=3.3V(D) Pin=C19-1
+Added Pin To Net: NetName=3.3V(D) Pin=C21-1
+Added Pin To Net: NetName=3.3V(D) Pin=H3-5
+Added Pin To Net: NetName=3.3V(D) Pin=U6-5
+Added Pin To Net: NetName=3.3V(D) Pin=U6-6
+Added Pin To Net: NetName=3.3V(D) Pin=U6-7
+Added Net: Name=3.3V(D)
+Added Pin To Net: NetName=NetC13_1 Pin=C13-1
+Added Pin To Net: NetName=NetC13_1 Pin=U4-3
+Added Pin To Net: NetName=NetC13_1 Pin=U4-4
+Added Net: Name=NetC13_1
+Added Pin To Net: NetName=NetC16_1 Pin=C16-1
+Added Pin To Net: NetName=NetC16_1 Pin=U5-3
+Added Pin To Net: NetName=NetC16_1 Pin=U5-4
+Added Net: Name=NetC16_1
+Added Pin To Net: NetName=NetC18_1 Pin=C18-1
+Added Pin To Net: NetName=NetC18_1 Pin=U6-4
+Added Net: Name=NetC18_1
+Added Room: Name=2015PCBÐÂ

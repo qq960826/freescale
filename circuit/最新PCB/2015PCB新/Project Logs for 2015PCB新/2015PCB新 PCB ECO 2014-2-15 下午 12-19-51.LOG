@@ -1,0 +1,154 @@
+Removed Pin From Net: NetName=GND Pin=BATERY1-1
+Removed Pin From Net: NetName=7.2V Pin=C3-1
+Removed Pin From Net: NetName=PGND Pin=C3-2
+Removed Pin From Net: NetName=GND Pin=D1-2
+Removed Pin From Net: NetName=PGND Pin=D7-2
+Removed Pin From Net: NetName=7.2V Pin=erjiguan1-1
+Removed Pin From Net: NetName=GND Pin=erjiguan1-2
+Removed Pin From Net: NetName=PWM1 Pin=H1-1
+Removed Pin From Net: NetName=PWM2 Pin=H1-2
+Removed Pin From Net: NetName=EN Pin=H1-3
+Removed Pin From Net: NetName=7.2V Pin=R1-2
+Removed Pin From Net: NetName=GND Pin=R4-2
+Removed Pin From Net: NetName=NetR5_1 Pin=R5-1
+Removed Pin From Net: NetName=GND Pin=R6-2
+Removed Pin From Net: NetName=GND Pin=R7-1
+Removed Pin From Net: NetName=PGND Pin=R7-2
+Removed Pin From Net: NetName=GND Pin=R10-2
+Removed Pin From Net: NetName=7.2V Pin=S1-1
+Removed Pin From Net: NetName=GND Pin=U1-8
+Removed Pin From Net: NetName=GND Pin=U1-9
+Removed Pin From Net: NetName=GND Pin=U1-10
+Removed Pin From Net: NetName=GND Pin=U1-11
+Removed Pin From Net: NetName=GND Pin=U1-12
+Removed Pin From Net: NetName=GND Pin=U1-13
+Removed Pin From Net: NetName=5V(S) Pin=U9-2
+Removed Pin From Net: NetName=5V(D) Pin=U10-2
+Removed Pin From Net: NetName=3.3V Pin=U14-2
+Removed Member From Class: ClassName=2015PCB新 Member=D8
+Removed Member From Class: ClassName=2015PCB新 Member=D9
+Removed Member From Class: ClassName=2015PCB新 Member=R12
+Removed Member From Class: ClassName=2015PCB新 Member=R13
+Removed Member From Class: ClassName=2015PCB新 Member=R14
+Removed Member From Class: ClassName=2015PCB新 Member=SWITCH1
+Removed Member From Class: ClassName=2015PCB新 Member=U14
+Removed Member From Class: ClassName=2015PCB新 Member=U15
+Change Component Footprint: Designator=H1 Old Footprint=干簧管 New Footprint=HEADER4
+Change Component Comment : Designator=R7 Old Comment=000 New Comment=RES
+Change Component Comment : Designator=R6 Old Comment=000 New Comment=RES
+Change Component Comment : Designator=C25 Old Comment=0.1uF_0805 New Comment=0.1uF
+Change Component Comment : Designator=C6 Old Comment=0.1uF_0805 New Comment=0.1uF
+Change Component Comment : Designator=C23 Old Comment=0.1uF_0805 New Comment=0.1uF
+Change Component Comment : Designator=R1 Old Comment=1K New Comment=RES
+Change Component Comment : Designator=D6 Old Comment=1N5819_SMA New Comment=1N5819
+Change Component Comment : Designator=C21 Old Comment=4.7uF_0805 New Comment=4.7uF
+Change Component Comment : Designator=C13 Old Comment=4.7uF_0805 New Comment=4.7uF
+Change Component Comment : Designator=D4 Old Comment=FR107__SMA New Comment=FR107
+Change Component Comment : Designator=D8 Old Comment=FR107_SMA New Comment=FR107
+Change Component Comment : Designator=D3 Old Comment=FR107_SMA New Comment=FR107
+Change Component Comment : Designator=D10 Old Comment=FR107_SMA New Comment=FR107
+Change Component Comment : Designator=D9 Old Comment=FR107_SMA New Comment=FR107
+Change Component Comment : Designator=D2 Old Comment=FR107_SMA New Comment=FR107
+Change Component Designator: OldDesignator=C1 NewDesignator=C13
+Change Component Designator: OldDesignator=C2 NewDesignator=C15
+Change Component Designator: OldDesignator=C4 NewDesignator=C16
+Change Component Designator: OldDesignator=C5 NewDesignator=C14
+Change Component Designator: OldDesignator=C6 NewDesignator=C25
+Change Component Designator: OldDesignator=C7 NewDesignator=C9
+Change Component Designator: OldDesignator=C8 NewDesignator=C1
+Change Component Designator: OldDesignator=C9 NewDesignator=C10
+Change Component Designator: OldDesignator=C10 NewDesignator=C3
+Change Component Designator: OldDesignator=C11 NewDesignator=C18
+Change Component Designator: OldDesignator=C12 NewDesignator=C20
+Change Component Designator: OldDesignator=C13 NewDesignator=C23
+Change Component Designator: OldDesignator=C14 NewDesignator=C11
+Change Component Designator: OldDesignator=C15 NewDesignator=C4
+Change Component Designator: OldDesignator=C16 NewDesignator=C12
+Change Component Designator: OldDesignator=C17 NewDesignator=C2
+Change Component Designator: OldDesignator=C18 NewDesignator=C21
+Change Component Designator: OldDesignator=C20 NewDesignator=C7
+Change Component Designator: OldDesignator=C21 NewDesignator=C24
+Change Component Designator: OldDesignator=C22 NewDesignator=C8
+Change Component Designator: OldDesignator=C23 NewDesignator=C6
+Change Component Designator: OldDesignator=C24 NewDesignator=C5
+Change Component Designator: OldDesignator=C25 NewDesignator=C26
+Change Component Designator: OldDesignator=D3 NewDesignator=D6
+Change Component Designator: OldDesignator=D4 NewDesignator=D3
+Change Component Designator: OldDesignator=D6 NewDesignator=D1
+Change Component Designator: OldDesignator=D8 NewDesignator=D7
+Change Component Designator: OldDesignator=D9 NewDesignator=D4
+Change Component Designator: OldDesignator=D10 NewDesignator=D5
+Change Component Designator: OldDesignator=R2 NewDesignator=R10
+Change Component Designator: OldDesignator=R3 NewDesignator=R8
+Change Component Designator: OldDesignator=R8 NewDesignator=R11
+Change Component Designator: OldDesignator=R11 NewDesignator=R3
+Change Component Designator: OldDesignator=R12 NewDesignator=R4
+Change Component Designator: OldDesignator=R13 NewDesignator=R5
+Change Component Designator: OldDesignator=R14 NewDesignator=R2
+Change Component Designator: OldDesignator=S1 NewDesignator=S2
+Change Component Designator: OldDesignator=SWITCH1 NewDesignator=S1
+Change Component Designator: OldDesignator=U1 NewDesignator=U7
+Change Component Designator: OldDesignator=U2 NewDesignator=U3
+Change Component Designator: OldDesignator=U3 NewDesignator=U10
+Change Component Designator: OldDesignator=U5 NewDesignator=U1
+Change Component Designator: OldDesignator=U7 NewDesignator=U13
+Change Component Designator: OldDesignator=U11 NewDesignator=U9
+Change Component Designator: OldDesignator=U12 NewDesignator=U2
+Change Component Designator: OldDesignator=U13 NewDesignator=U12
+Change Component Designator: OldDesignator=U15 NewDesignator=U11
+Added Component: Designator=C17(PCBComponent_1)
+Added Component: Designator=C22(PCBComponent_1)
+Added Component: Designator=H2(干簧管)
+Added Component: Designator=L2(二极管0805)
+Added Component: Designator=L3(二极管0805)
+Added Component: Designator=U5(PCBComponent_1 - duplicate)
+Added Pin To Net: NetName=PGND Pin=BATERY1-1
+Added Pin To Net: NetName=12V Pin=C17-1
+Added Pin To Net: NetName=GND Pin=C17-2
+Added Pin To Net: NetName=12V Pin=C22-1
+Added Pin To Net: NetName=GND Pin=C22-2
+Added Pin To Net: NetName=GND Pin=H1-1
+Added Pin To Net: NetName=3.3V Pin=H1-2
+Added Pin To Net: NetName=5V(D) Pin=H1-3
+Added Pin To Net: NetName=5V(S) Pin=H1-4
+Added Pin To Net: NetName=PWM2 Pin=H2-1
+Added Pin To Net: NetName=PWM1 Pin=H2-2
+Added Pin To Net: NetName=EN Pin=H2-3
+Added Pin To Net: NetName=GND Pin=L2-2
+Added Pin To Net: NetName=PGND Pin=L3-2
+Added Pin To Net: NetName=7.2V Pin=R1-1
+Added Pin To Net: NetName=GND Pin=R6-1
+Added Pin To Net: NetName=PGND Pin=R6-2
+Added Pin To Net: NetName=NetR5_1 Pin=R7-1
+Added Pin To Net: NetName=5V(S) Pin=U5-1
+Added Pin To Net: NetName=GND Pin=U5-2
+Added Pin To Net: NetName=12V Pin=U5-4
+Change Net Name : Old Net Name=NetC13_1 New Net Name=NetC23_1
+Change Net Name : Old Net Name=NetC13_2 New Net Name=NetC23_2
+Change Net Name : Old Net Name=NetC20_1 New Net Name=NetC7_1
+Change Net Name : Old Net Name=NetC21_1 New Net Name=NetC24_1
+Change Net Name : Old Net Name=NetC21_2 New Net Name=NetC24_2
+Change Net Name : Old Net Name=NetD3_1 New Net Name=NetD6_1
+Change Net Name : Old Net Name=NetD3_2 New Net Name=NetD6_2
+Change Net Name : Old Net Name=NetD4_1 New Net Name=NetD3_1
+Change Net Name : Old Net Name=NetD4_2 New Net Name=NetD3_2
+Change Net Name : Old Net Name=NetD6_1 New Net Name=NetD1_1
+Change Net Name : Old Net Name=NetD8_1 New Net Name=NetD7_1
+Change Net Name : Old Net Name=NetD8_2 New Net Name=NetD7_2
+Change Net Name : Old Net Name=NetD9_1 New Net Name=NetD4_1
+Change Net Name : Old Net Name=NetD9_2 New Net Name=NetD4_2
+Change Net Name : Old Net Name=NetR5_1 New Net Name=NetR7_1
+Change Net Name : Old Net Name=NetR11_1 New Net Name=NetR3_1
+Change Net Name : Old Net Name=NetR13_2 New Net Name=NetR2_2
+Added Pin To Net: NetName=NetL2_1 Pin=L2-1
+Added Pin To Net: NetName=NetL2_1 Pin=R1-2
+Added Net: Name=NetL2_1
+Added Pin To Net: NetName=NetL3_1 Pin=L3-1
+Added Pin To Net: NetName=NetL3_1 Pin=R7-2
+Added Net: Name=NetL3_1
+Added Member To Class: ClassName=2015PCB新 Member=Component C26 0.1uF
+Added Member To Class: ClassName=2015PCB新 Member=Component H2 HEADER
+Added Member To Class: ClassName=2015PCB新 Member=Component L2 LED
+Added Member To Class: ClassName=2015PCB新 Member=Component L3 LED
+Added Member To Class: ClassName=2015PCB新 Member=Component S2 三脚开关
+Added Room: Name=2015PCB新

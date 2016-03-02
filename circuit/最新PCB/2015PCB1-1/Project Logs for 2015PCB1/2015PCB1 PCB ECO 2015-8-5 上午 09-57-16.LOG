@@ -1,0 +1,83 @@
+Removed Pin From Net: NetName=5V(S) Pin=BMQ1-1
+Removed Pin From Net: NetName=GND Pin=H3-1
+Removed Pin From Net: NetName=3.3V Pin=H3-2
+Removed Pin From Net: NetName=GND Pin=H3-3
+Removed Pin From Net: NetName=5V(D) Pin=H3-4
+Removed Pin From Net: NetName=5V(S) Pin=H3-5
+Removed Pin From Net: NetName=3.3V Pin=LQ_KXXP1-45
+Removed Pin From Net: NetName=3.3V Pin=P2-17
+Removed Pin From Net: NetName=DM Pin=P3-15
+Removed Pin From Net: NetName=VREG Pin=P3-16
+Removed Pin From Net: NetName=0P1 Pin=P3-17
+Removed Pin From Net: NetName=0M1 Pin=P3-18
+Removed Pin From Net: NetName=1P1 Pin=P3-19
+Removed Pin From Net: NetName=1M1 Pin=P3-20
+Removed Pin From Net: NetName=1P3 Pin=P3-21
+Removed Pin From Net: NetName=1M3 Pin=P3-22
+Removed Pin From Net: NetName=0P3 Pin=P3-23
+Removed Pin From Net: NetName=0M3 Pin=P3-24
+Removed Pin From Net: NetName=VRH Pin=P3-25
+Removed Pin From Net: NetName=1S16 Pin=P3-26
+Removed Pin From Net: NetName=0S16 Pin=P3-27
+Removed Pin From Net: NetName=1S18 Pin=P3-28
+Removed Pin From Net: NetName=DA0 Pin=P3-29
+Removed Pin From Net: NetName=DA1 Pin=P3-30
+Removed Pin From Net: NetName=5V(S) Pin=Q1-1
+Removed Pin From Net: NetName=5V(S) Pin=R39-1
+Removed Member From Class: ClassName=2015PCB1 Member=H3
+Change Component Footprint: Designator=P3 Old Footprint=HDR2X15 New Footprint=HDR2X7
+Change Component Comment : Designator=P3 Old Comment=Header 15X2 New Comment=Header 7X2
+Added Component: Designator=H?(HEADER4X2)
+Added Component: Designator=HW1(干簧管)
+Added Component: Designator=HW2(干簧管)
+Added Component: Designator=HW3(干簧管)
+Added Component: Designator=R55(0805)
+Added Component: Designator=R56(0805)
+Added Component: Designator=R57(0805)
+Added Pin To Net: NetName=3.3V Pin=H?-1
+Added Pin To Net: NetName=5V(3) Pin=H?-2
+Added Pin To Net: NetName=GND Pin=H?-3
+Added Pin To Net: NetName=GND Pin=H?-4
+Added Pin To Net: NetName=5V(S) Pin=H?-5
+Added Pin To Net: NetName=5V(D) Pin=H?-8
+Added Pin To Net: NetName=5V(3) Pin=HW1-1
+Added Pin To Net: NetName=GND Pin=HW1-2
+Added Pin To Net: NetName=PTE0 Pin=HW1-3
+Added Pin To Net: NetName=5V(3) Pin=HW2-1
+Added Pin To Net: NetName=GND Pin=HW2-2
+Added Pin To Net: NetName=PTE1 Pin=HW2-3
+Added Pin To Net: NetName=5V(3) Pin=HW3-1
+Added Pin To Net: NetName=GND Pin=HW3-2
+Added Pin To Net: NetName=PTE2 Pin=HW3-3
+Added Pin To Net: NetName=5V(3) Pin=Q1-1
+Added Pin To Net: NetName=5V(3) Pin=R55-1
+Added Pin To Net: NetName=PTE0 Pin=R55-2
+Added Pin To Net: NetName=5V(3) Pin=R56-1
+Added Pin To Net: NetName=PTE1 Pin=R56-2
+Added Pin To Net: NetName=5V(3) Pin=R57-1
+Added Pin To Net: NetName=PTE2 Pin=R57-2
+Change Net Name : Old Net Name=5V(D) New Net Name=ADJ
+Change Net Name : Old Net Name=NetH1_2 New Net Name=NetH1_4
+Change Net Name : Old Net Name=NetH1_3 New Net Name=NetH1_5
+Change Net Name : Old Net Name=NetH1_4 New Net Name=NetH1_2
+Change Net Name : Old Net Name=NetH1_5 New Net Name=NetH1_3
+Change Net Name : Old Net Name=NetH2_2 New Net Name=NetH2_3
+Change Net Name : Old Net Name=NetH2_3 New Net Name=NetH2_2
+Change Net Name : Old Net Name=NetH2_4 New Net Name=NetH2_5
+Change Net Name : Old Net Name=NetH2_5 New Net Name=NetH2_4
+Added Pin To Net: NetName=3.3V(D) Pin=H?-6
+Added Pin To Net: NetName=3.3V(D) Pin=LQ_KXXP1-45
+Added Pin To Net: NetName=3.3V(D) Pin=P2-17
+Added Net: Name=3.3V(D)
+Added Pin To Net: NetName=5V(B) Pin=BMQ1-1
+Added Pin To Net: NetName=5V(B) Pin=H?-7
+Added Pin To Net: NetName=5V(B) Pin=R39-1
+Added Net: Name=5V(B)
+Added Member To Class: ClassName=2015PCB1 Member=Component H? HEADER4X2
+Added Member To Class: ClassName=2015PCB1 Member=Component HW1 HEADER
+Added Member To Class: ClassName=2015PCB1 Member=Component HW2 HEADER
+Added Member To Class: ClassName=2015PCB1 Member=Component HW3 HEADER
+Added Member To Class: ClassName=2015PCB1 Member=Component R55 RES
+Added Member To Class: ClassName=2015PCB1 Member=Component R56 RES
+Added Member To Class: ClassName=2015PCB1 Member=Component R57 RES
+Added Room: Name=2015PCB1

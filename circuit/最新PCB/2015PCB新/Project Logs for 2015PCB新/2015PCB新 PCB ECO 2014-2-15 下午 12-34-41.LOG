@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=NetD2_1 Pin=D3-1
+Added Pin To Net: NetName=NetD3_1 Pin=D3-1
+Added Member To Class: ClassName=2015PCBÐÂ Member=Component D2 LED_0805
+Added Member To Class: ClassName=2015PCBÐÂ Member=Component D3 LED_0805

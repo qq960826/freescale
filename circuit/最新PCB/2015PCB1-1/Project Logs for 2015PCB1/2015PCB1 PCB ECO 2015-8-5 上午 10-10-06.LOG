@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=PTE0 Pin=HW1-3
+Removed Pin From Net: NetName=PTE1 Pin=HW2-3
+Removed Pin From Net: NetName=PTE2 Pin=HW3-3
+Removed Pin From Net: NetName=PTE0 Pin=R55-2
+Removed Pin From Net: NetName=PTE1 Pin=R56-2
+Removed Pin From Net: NetName=PTE2 Pin=R57-2
+Added Pin To Net: NetName=PTE10 Pin=HW1-3
+Added Pin To Net: NetName=PTE11 Pin=HW2-3
+Added Pin To Net: NetName=PTE12 Pin=HW3-3
+Added Pin To Net: NetName=PTE10 Pin=R55-2
+Added Pin To Net: NetName=PTE11 Pin=R56-2
+Added Pin To Net: NetName=PTE12 Pin=R57-2
+Added Room: Name=2015PCB1

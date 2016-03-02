@@ -1,0 +1,5 @@
+Change Component Footprint: Designator=C1 Old Footprint=PCBComponent_1 New Footprint=1206
+Change Pin Designator/Name:  Old Designator=H3-4 Old Name=4 New Designator =5 New Name=5
+Change Pin Designator/Name:  Old Designator=H3-5 Old Name=5 New Designator =4 New Name=4
+Change Pin Designator/Name:  Old Designator=H4-1 Old Name=1 New Designator =2 New Name=2
+Change Pin Designator/Name:  Old Designator=H4-2 Old Name=2 New Designator =1 New Name=1

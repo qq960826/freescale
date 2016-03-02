@@ -1,0 +1,25 @@
+Removed Pin From Net: NetName=PTE1 Pin=P3-2
+Removed Pin From Net: NetName=PTE2 Pin=P3-3
+Removed Pin From Net: NetName=PTE3 Pin=P3-4
+Removed Pin From Net: NetName=PTE4 Pin=P3-5
+Removed Pin From Net: NetName=PTE5 Pin=P3-6
+Removed Pin From Net: NetName=PTE6 Pin=P3-7
+Removed Pin From Net: NetName=PTE7 Pin=P3-8
+Removed Pin From Net: NetName=PTE8 Pin=P3-9
+Removed Pin From Net: NetName=PTE9 Pin=P3-10
+Removed Pin From Net: NetName=PTE10 Pin=P3-11
+Removed Pin From Net: NetName=PTE12 Pin=P3-13
+Removed Pin From Net: NetName=DP Pin=P3-14
+Change Component Footprint: Designator=P3 Old Footprint=HDR2X7 New Footprint=HDR2X6_CEN
+Change Component Comment : Designator=P3 Old Comment=Header 7X2 New Comment=Header 6X2A
+Added Pin To Net: NetName=PTE2 Pin=P3-2
+Added Pin To Net: NetName=PTE4 Pin=P3-3
+Added Pin To Net: NetName=PTE6 Pin=P3-4
+Added Pin To Net: NetName=PTE8 Pin=P3-5
+Added Pin To Net: NetName=PTE10 Pin=P3-6
+Added Pin To Net: NetName=PTE1 Pin=P3-7
+Added Pin To Net: NetName=PTE3 Pin=P3-8
+Added Pin To Net: NetName=PTE5 Pin=P3-9
+Added Pin To Net: NetName=PTE7 Pin=P3-10
+Added Pin To Net: NetName=PTE9 Pin=P3-11
+Added Room: Name=2015PCB1

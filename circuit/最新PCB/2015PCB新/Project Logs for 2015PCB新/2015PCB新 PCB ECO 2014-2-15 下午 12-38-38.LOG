@@ -1,0 +1,6 @@
+Added Component: Designator=U5(PCBComponent_1 - duplicate)
+Added Pin To Net: NetName=5V(S) Pin=U5-1
+Added Pin To Net: NetName=GND Pin=U5-2
+Added Pin To Net: NetName=GND Pin=U5-3
+Added Pin To Net: NetName=12V Pin=U5-4
+Added Member To Class: ClassName=2015PCBÐÂ Member=Component U5 0512

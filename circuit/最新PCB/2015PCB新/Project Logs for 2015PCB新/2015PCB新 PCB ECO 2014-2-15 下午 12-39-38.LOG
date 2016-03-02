@@ -1,0 +1,5 @@
+Added Component: Designator=L1(PCBComponent_1)
+Added Pin To Net: NetName=NetD1_1 Pin=L1-1
+Added Pin To Net: NetName=NetL1_2 Pin=L1-2
+Added Member To Class: ClassName=2015PCBÐÂ Member=Component L1 Inductor
+Added Room: Name=2015PCBÐÂ

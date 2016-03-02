@@ -1,0 +1,20 @@
+Remove Pin=H3-3 From Net=5V(3)
+Remove Pin=R21-1 From Net=PTE4
+Add Pin To Net: Pin=H3-3 Old Net=5V(3) New Net=GND
+Add Pin To Net: Pin=R21-1 Old Net=PTE4 New Net=PTA15
+Change Pin Designator/Name:  Old Designator=C1-1 Old Name=1 New Designator =2 New Name=2
+Change Pin Designator/Name:  Old Designator=C1-2 Old Name=2 New Designator =1 New Name=1
+Change Pin Designator/Name:  Old Designator=C4-1 Old Name=1 New Designator =2 New Name=2
+Change Pin Designator/Name:  Old Designator=C4-2 Old Name=2 New Designator =1 New Name=1
+Change Pin Designator/Name:  Old Designator=C7-1 Old Name=1 New Designator =2 New Name=2
+Change Pin Designator/Name:  Old Designator=C7-2 Old Name=2 New Designator =1 New Name=1
+Change Pin Designator/Name:  Old Designator=C10-1 Old Name=1 New Designator =2 New Name=2
+Change Pin Designator/Name:  Old Designator=C10-2 Old Name=2 New Designator =1 New Name=1
+Change Pin Designator/Name:  Old Designator=H1-2 Old Name=2 New Designator =4 New Name=4
+Change Pin Designator/Name:  Old Designator=H1-3 Old Name=3 New Designator =5 New Name=5
+Change Pin Designator/Name:  Old Designator=H1-4 Old Name=4 New Designator =2 New Name=2
+Change Pin Designator/Name:  Old Designator=H1-5 Old Name=5 New Designator =3 New Name=3
+Change Pin Designator/Name:  Old Designator=H2-2 Old Name=2 New Designator =3 New Name=3
+Change Pin Designator/Name:  Old Designator=H2-3 Old Name=3 New Designator =2 New Name=2
+Change Pin Designator/Name:  Old Designator=H2-4 Old Name=4 New Designator =5 New Name=5
+Change Pin Designator/Name:  Old Designator=H2-5 Old Name=5 New Designator =4 New Name=4

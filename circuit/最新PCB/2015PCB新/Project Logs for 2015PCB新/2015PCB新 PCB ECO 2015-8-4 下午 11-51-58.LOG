@@ -1,0 +1,7 @@
+Added Component: Designator=C26(PCBComponent_1)
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=7.2V Pin=C26-1
+Added Pin To Net: NetName=PGND Pin=C26-2
+Added Member To Class: ClassName=2015PCBÐÂ Member=Component C25 4.7uF
+Added Member To Class: ClassName=2015PCBÐÂ Member=Component C26 Cap Pol1_1
+Added Member To Class: ClassName=2015PCBÐÂ Member=Component D5 1N5819

@@ -1,0 +1,28 @@
+Removed Pin From Net: NetName=NetL2_1 Pin=L2-1
+Removed Pin From Net: NetName=GND Pin=L2-2
+Removed Pin From Net: NetName=NetL3_1 Pin=L3-1
+Removed Pin From Net: NetName=PGND Pin=L3-2
+Removed Pin From Net: NetName=NetL2_1 Pin=R1-2
+Removed Pin From Net: NetName=NetL3_1 Pin=R7-2
+Removed Member From Class: ClassName=2015PCB新 Member=L2
+Removed Member From Class: ClassName=2015PCB新 Member=L3
+Added Component: Designator=D?(0805)
+Added Component: Designator=D?(0805)
+Added Pin To Net: NetName=NetL2_1 Pin=D?-1
+Added Pin To Net: NetName=NetL3_1 Pin=D?-1
+Added Pin To Net: NetName=GND Pin=D?-2
+Added Pin To Net: NetName=PGND Pin=D?-2
+Added Pin To Net: NetName=NetL3_1 Pin=R1-2
+Added Pin To Net: NetName=NetL2_1 Pin=R7-2
+Change Net Name : Old Net Name=NetL2_1 New Net Name=NetD?_1
+Change Net Name : Old Net Name=NetL3_1 New Net Name=NetD?_1
+Added Member To Class: ClassName=2015PCB新 Member=Component C17 Cap Pol1_1
+Added Member To Class: ClassName=2015PCB新 Member=Component C22 Cap
+Added Member To Class: ClassName=2015PCB新 Member=Component D4 FR107
+Added Member To Class: ClassName=2015PCB新 Member=Component D? LED_0805
+Added Member To Class: ClassName=2015PCB新 Member=Component D? LED_0805
+Added Member To Class: ClassName=2015PCB新 Member=Component R2 10K
+Added Member To Class: ClassName=2015PCB新 Member=Component S1 单刀双掷开关
+Added Member To Class: ClassName=2015PCB新 Member=Component U5 0512
+Added Member To Class: ClassName=2015PCB新 Member=Component U11 IR2104_sop
+Added Room: Name=2015PCB新
