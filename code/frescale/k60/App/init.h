@@ -36,11 +36,15 @@
 #define pin_PWM_left2 FTM_CH2//C3£¬FTM0_CH2
 
 //OLED
-#define pin_OLED_D0  PTC4_OUT//D0
-#define pin_OLED_D1  PTC5_OUT//D1
-#define pin_OLED_RST  PTC6_OUT
-#define pin_OLED_DC   PTC7_OUT
-#define pin_OLED_CS   PTC8_OUT
+#define pin_OLED_D0  PTC4_OUT//PTC4
+#define pin_OLED_D1  PTC5_OUT//PTC5
+#define pin_OLED_RST  PTC6_OUT//PTC6
+#define pin_OLED_DC   PTC7_OUT//PTC7
+#define pin_OLED_CS   PTC8_OUT//PTC8
+
+
+//SDCARD
+
 
 #endif
 void car_init();
