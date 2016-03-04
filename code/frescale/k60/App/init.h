@@ -43,8 +43,18 @@
 #define pin_OLED_CS   PTC8_OUT//PTC8
 
 
-//SDCARD
 
+
+//SDCARD
+#define pin_SDCARD_CS PTC9_OUT
+#define pin_SDCARD_CLK PTC10_OUT
+#define pin_SDCARD_MOSI PTC11_OUT
+#define pin_SDCARD_MISO PTC12_IN
+
+#define pin_SDCARD_CS_init PTC9
+#define pin_SDCARD_CLK_init PTC10
+#define pin_SDCARD_MOSI_init PTC11
+#define pin_SDCARD_MISO_init PTC12
 
 #endif
 void car_init();

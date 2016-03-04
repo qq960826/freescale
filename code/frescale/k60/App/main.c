@@ -20,6 +20,7 @@
 #include "init.h"
 #include "calculate.h"
 #include "io.h"
+#include "sdcard.h"
 #define BUFF_SIZE   100
 
 
@@ -70,10 +71,16 @@ float angle;
 void  main(void)
 {
   
-  OLED_Init();
-  OLED_Fill(0x00);//ºÚÆÁ
+ // OLED_Init();
+  //OLED_Fill(0x00);//ºÚÆÁ
   car_init();
-  OLED_P8x16Str(5,0,"test");
+  //OLED_P8x16Str(5,0,"test");
+  
+  
+  
+  setup();
+  //sd_read();
+  
   while(1){
   //sensor_accelerator_read();
   //sensor_accelerator_calculate();

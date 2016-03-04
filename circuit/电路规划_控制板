@@ -26,7 +26,7 @@
 //串口
 #define pin_uart UART0 //PTA15=RX,PTA14=TX
 
-//PWM
+//PWM0
 #define pin_PWM_right1 FTM_CH4//D4，FTM0_CH4
 #define pin_PWM_right2 FTM_CH5//D5，FTM0_CH5
 #define pin_PWM_left1 FTM_CH1//C2，FTM0_CH1
@@ -38,6 +38,13 @@
 #define pin_OLED_RST  PTC6_OUT//PTC6
 #define pin_OLED_DC   PTC7_OUT//PTC7
 #define pin_OLED_CS   PTC8_OUT//PTC8
+
+
+//SDCARD
+#define pin_SDCARD_CS PTC9_OUT
+#define pin_SDCARD_CLK PTC10_OUT
+#define pin_SDCARD_MOSI PTC11_OUT
+#define pin_SDCARD_MISO PTC12_IN
 
 一个启动开关
 20个预留IO
