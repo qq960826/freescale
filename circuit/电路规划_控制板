@@ -46,5 +46,17 @@
 #define pin_SDCARD_MOSI PTC11_OUT
 #define pin_SDCARD_MISO PTC12_IN
 
+//button
+#define pin_button1 PTC13
+#define pin_button2 PTC14
+#define pin_button3 PTC15
+#define pin_button4 PTC16
+#define pin_button5 PTC17
+#define pin_button6 PTC18
+#define pin_button7 PTC19
+
+
+//button
+
 一个启动开关
 20个预留IO

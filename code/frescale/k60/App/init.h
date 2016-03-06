@@ -56,6 +56,15 @@
 #define pin_SDCARD_MOSI_init PTC11
 #define pin_SDCARD_MISO_init PTC12
 
+//button
+#define pin_button1 PTC13
+#define pin_button2 PTC14
+#define pin_button3 PTC15
+#define pin_button4 PTC16
+#define pin_button5 PTC17
+#define pin_button6 PTC18
+#define pin_button7 PTC19
+
 #endif
 void car_init();
 void pit_hander_time_recoder();

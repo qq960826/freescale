@@ -78,7 +78,7 @@ void  main(void)
   
   
   
-  setup();
+  //setup();
   //sd_read();
   
   while(1){
@@ -87,9 +87,9 @@ void  main(void)
   //motor_left_pid(10);
   //motor_right_pid(10);
   
-  //sensor_electromagnet_read();
+  sensor_electromagnet_read();
   
- // printf("%lld\n",electromagnet_L6);
+  printf("%lld\n",electromagnet_L6);
   
   }
 

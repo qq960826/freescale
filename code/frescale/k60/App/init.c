@@ -34,6 +34,15 @@ unsigned long long mills(){
   return system_time_ms;
 
 }
+void PORTC_IRQHandler(){
+  PORTC_ISFR  = ~0;
+  PORTC_ISFR  = ~0;
+printf("wzq");
+
+
+
+}
+
 void car_init(){
 //ADC_init
   adc_init(pin_accelerometer1_X);//加速度计1加速度计X,E0
@@ -78,6 +87,19 @@ void car_init(){
   
   
 //SD_init
+  
+  
+  //button_init
+  port_init(pin_button1, ALT1 | IRQ_FALLING | PULLUP );
+  port_init(pin_button2, ALT1 | IRQ_FALLING | PULLUP );
+  port_init(pin_button3, ALT1 | IRQ_FALLING | PULLUP );
+  port_init(pin_button4, ALT1 | IRQ_FALLING | PULLUP );
+  port_init(pin_button5, ALT1 | IRQ_FALLING | PULLUP );
+  port_init(pin_button6, ALT1 | IRQ_FALLING | PULLUP );
+  port_init(pin_button7, ALT1 | IRQ_FALLING | PULLUP );
+  set_vector_handler(PORTC_VECTORn ,PORTC_IRQHandler);
+  enable_irq (PORTC_IRQn);
+  
   
   
   
