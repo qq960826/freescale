@@ -1,0 +1,38 @@
+Remove Pin=K60 144PIN V4.0系统板-201 From Net=PWM_LEFT2
+Remove Pin=K60 144PIN V4.0系统板-204 From Net=PWM_LEFT1
+Remove Pin=K60 144PIN V4.0系统板-213 From Net=SIGNAL_IN_L6
+Remove Pin=K60 144PIN V4.0系统板-217 From Net=SIGNAL_IN_L4
+Remove Pin=K60 144PIN V4.0系统板-218 From Net=SIGNAL_IN_L5
+Remove Pin=K60 144PIN V4.0系统板-219 From Net=SIGNAL_IN_L2
+Remove Pin=K60 144PIN V4.0系统板-220 From Net=SIGNAL_IN_L3
+Remove Pin=K60 144PIN V4.0系统板-224 From Net=SIGNAL_IN_L1
+Remove Pin=K60 144PIN V4.0系统板-322 From Net=FTM2_QDPHA
+Remove Pin=K60 144PIN V4.0系统板-323 From Net=FTM2_QDPHB
+Remove Pin=K60 144PIN V4.0系统板-324 From Net=FTM1_QDPHA
+Remove Pin=K60 144PIN V4.0系统板-325 From Net=FTM1_QDPHB
+Remove Pin=K60 144PIN V4.0系统板-409 From Net=PWM_RIGHT1
+Remove Pin=K60 144PIN V4.0系统板-410 From Net=PWM_RIGHT2
+Remove Pin=K60 144PIN V4.0系统板-415 From Net=BUTTON6
+Remove Pin=K60 144PIN V4.0系统板-416 From Net=BUTTON7
+Remove Pin=K60 144PIN V4.0系统板-417 From Net=BUTTON4
+Remove Pin=K60 144PIN V4.0系统板-418 From Net=BUTTON5
+Remove Pin=K60 144PIN V4.0系统板-419 From Net=BUTTON2
+Remove Pin=K60 144PIN V4.0系统板-420 From Net=BUTTON3
+Remove Pin=K60 144PIN V4.0系统板-421 From Net=SDCARD_MISO
+Remove Pin=K60 144PIN V4.0系统板-422 From Net=BUTTON1
+Remove Pin=K60 144PIN V4.0系统板-423 From Net=SDCARD_CLK
+Remove Pin=K60 144PIN V4.0系统板-424 From Net=SDCARD_MOSI
+Remove Pin=K60 144PIN V4.0系统板-425 From Net=OLED_CS
+Remove Pin=K60 144PIN V4.0系统板-426 From Net=SDCARD_CS
+Remove Pin=K60 144PIN V4.0系统板-427 From Net=OLED_RST
+Remove Pin=K60 144PIN V4.0系统板-428 From Net=OLED_DS
+Remove Pin=K60 144PIN V4.0系统板-429 From Net=OLED_D0
+Remove Pin=K60 144PIN V4.0系统板-430 From Net=OLED_D1
+Remove Pin=sdcard-2 From Net=SDCARD_CS
+Remove Pin=sdcard-3 From Net=SDCARD_MOSI
+Remove Pin=sdcard-5 From Net=SDCARD_CLK
+Remove Pin=sdcard-7 From Net=SDCARD_MISO
+Remove Pin=sensor_tuoluoyi-1 From Net=AR2
+Remove Pin=sensor_tuoluoyi-5 From Net=ZOUT
+Remove Pin=sensor_tuoluoyi-6 From Net=YOUT
+Remove Pin=sensor_tuoluoyi-7 From Net=XOUT
