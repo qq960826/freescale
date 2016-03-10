@@ -1,0 +1,6 @@
+Change Component Designator: OldDesignator=interface_dianci NewDesignator=dianci
+Change Component Designator: OldDesignator=interface_sdcard NewDesignator=sdcard
+Change Component Designator: OldDesignator=omron_encoder_left NewDesignator=omron_left
+Change Component Designator: OldDesignator=omron_encoder_right NewDesignator=omron_right
+Change Component Designator: OldDesignator=S8 NewDesignator=reset
+Change Component Designator: OldDesignator=sensor_tuoluoyi NewDesignator=tuoluoyi

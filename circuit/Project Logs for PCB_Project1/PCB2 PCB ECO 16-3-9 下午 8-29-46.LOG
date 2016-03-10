@@ -1,0 +1,23 @@
+Removed Pin From Net: NetName=3.3V Pin=R13-3
+Change Component DesignItemId : Designator=R13 Old DesignItemId=huadongbianzuqi New DesignItemId=RPot
+Change Component Comment : Designator=R13 Old Comment=47K New Comment=R4
+Change Component Description : Designator=R13 Old Description= New Description=Potentiometer
+Change Component Library : Designator=R13 Old Library=Schlib_k60_core.SchLib New Library=Miscellaneous Devices.IntLib
+Added Pin To Net: NetName=NetR12_1 Pin=R13-1
+Added Pin To Net: NetName=NetR11_2 Pin=R13-2
+Added Pin To Net: NetName=NetR12_1 Pin=R13-3
+Added Pin To Net: NetName=NetR37_1 Pin=R41-1
+Added Pin To Net: NetName=NetR32_2 Pin=R41-2
+Added Pin To Net: NetName=NetR37_1 Pin=R41-3
+Added Pin To Net: NetName=NetR38_1 Pin=R42-1
+Added Pin To Net: NetName=NetR33_2 Pin=R42-2
+Added Pin To Net: NetName=NetR38_1 Pin=R42-3
+Added Pin To Net: NetName=NetR43_1 Pin=R43-1
+Added Pin To Net: NetName=NetR35_2 Pin=R43-2
+Added Pin To Net: NetName=NetR43_1 Pin=R43-3
+Added Pin To Net: NetName=NetR40_1 Pin=R44-1
+Added Pin To Net: NetName=NetR36_2 Pin=R44-2
+Added Pin To Net: NetName=NetR40_1 Pin=R44-3
+Added Pin To Net: NetName=NetR39_1 Pin=R49-1
+Added Pin To Net: NetName=NetR34_2 Pin=R49-2
+Added Pin To Net: NetName=NetR39_1 Pin=R49-3

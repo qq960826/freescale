@@ -1,0 +1,17 @@
+Component Name : LM358D
+
+Part Count : 2
+
+Part : *
+     Pins - (Normal) : 0
+          Hidden Pins : 
+
+Part : *
+     Pins - (Normal) : 5
+          1              1              Output
+          2              2              Input
+          3              3              Input
+          4              4              Power
+          8              8              Power
+          Hidden Pins : 
+

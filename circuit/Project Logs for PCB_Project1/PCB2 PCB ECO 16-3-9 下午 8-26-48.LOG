@@ -1,0 +1,498 @@
+Added Component: Designator=BSS306N(SOT-23_M)
+Added Component: Designator=button1(SPST-2)
+Added Component: Designator=button2(SPST-2)
+Added Component: Designator=button3(SPST-2)
+Added Component: Designator=button4(SPST-2)
+Added Component: Designator=button5(SPST-2)
+Added Component: Designator=button6(SPST-2)
+Added Component: Designator=button7(SPST-2)
+Added Component: Designator=C1(6-0805_M)
+Added Component: Designator=C2(6-0805_M)
+Added Component: Designator=C3(6-0805_M)
+Added Component: Designator=C4(RB7.6-15)
+Added Component: Designator=C5(钽电容_小)
+Added Component: Designator=C6(D7343)
+Added Component: Designator=C7(钽电容_小)
+Added Component: Designator=C8(6-0805_M)
+Added Component: Designator=C9(6-0805_M)
+Added Component: Designator=C10(6-0805_M)
+Added Component: Designator=C11(6-0805_M)
+Added Component: Designator=C12(6-0805_M)
+Added Component: Designator=C13(6-0805_M)
+Added Component: Designator=C14(6-0805_M)
+Added Component: Designator=C15(6-0805_M)
+Added Component: Designator=C16(6-0805_M)
+Added Component: Designator=C18(6-0805_M)
+Added Component: Designator=C30(6-0805_M)
+Added Component: Designator=C31(6-0805_M)
+Added Component: Designator=C32(6-0805_M)
+Added Component: Designator=CON1(接线端子)
+Added Component: Designator=D5(6-0805_M)
+Added Component: Designator=D6(6-0805_M)
+Added Component: Designator=D10(6-0805_M)
+Added Component: Designator=F1(6-0805_M)
+Added Component: Designator=interface_dianci(HDR1X7H)
+Added Component: Designator=interface_sdcard(HDR1X5H)
+Added Component: Designator=K60 144PIN V4.0系统板(K60 V4.0最小系统版)
+Added Component: Designator=L6932-1(L6932)
+Added Component: Designator=L6932-2(L6932)
+Added Component: Designator=LM1117-5(SOT223_M)
+Added Component: Designator=oled(HDR1X7H)
+Added Component: Designator=omron_encoder_left(HDR1X4H)
+Added Component: Designator=omron_encoder_right(HDR1X4)
+Added Component: Designator=paizu1(DIP-16)
+Added Component: Designator=pwm(HDR1X5H)
+Added Component: Designator=R1(6-0805_M)
+Added Component: Designator=R2(6-0805_M)
+Added Component: Designator=R3(6-0805_M)
+Added Component: Designator=R4(6-0805_M)
+Added Component: Designator=R9(6-0805_M)
+Added Component: Designator=R10(6-0805_M)
+Added Component: Designator=R11(6-0805_M)
+Added Component: Designator=R12(6-0805_M)
+Added Component: Designator=R13(滑动变阻器)
+Added Component: Designator=R15(6-0805_M)
+Added Component: Designator=R16(6-0805_M)
+Added Component: Designator=R17(6-0805_M)
+Added Component: Designator=R18(6-0805_M)
+Added Component: Designator=R19(6-0805_M)
+Added Component: Designator=R20(6-0805_M)
+Added Component: Designator=R21(6-0805_M)
+Added Component: Designator=R24(6-0805_M)
+Added Component: Designator=R25(6-0805_M)
+Added Component: Designator=R26(6-0805_M)
+Added Component: Designator=R27(6-0805_M)
+Added Component: Designator=R28(6-0805_M)
+Added Component: Designator=R29(6-0805_M)
+Added Component: Designator=R30(6-0805_M)
+Added Component: Designator=R31(6-0805_M)
+Added Component: Designator=R32(6-0805_M)
+Added Component: Designator=R33(6-0805_M)
+Added Component: Designator=R34(6-0805_M)
+Added Component: Designator=R35(6-0805_M)
+Added Component: Designator=R36(6-0805_M)
+Added Component: Designator=R37(6-0805_M)
+Added Component: Designator=R38(6-0805_M)
+Added Component: Designator=R39(6-0805_M)
+Added Component: Designator=R40(6-0805_M)
+Added Component: Designator=R41(滑动变阻器)
+Added Component: Designator=R42(滑动变阻器)
+Added Component: Designator=R43(滑动变阻器)
+Added Component: Designator=R44(滑动变阻器)
+Added Component: Designator=R45(6-0805_M)
+Added Component: Designator=R46(6-0805_M)
+Added Component: Designator=R47(6-0805_M)
+Added Component: Designator=R48(6-0805_M)
+Added Component: Designator=R49(滑动变阻器)
+Added Component: Designator=R50(6-0805_M)
+Added Component: Designator=R60(6-0805_M)
+Added Component: Designator=R61(6-0805_M)
+Added Component: Designator=R62(6-0805_M)
+Added Component: Designator=S8(SPST-2)
+Added Component: Designator=sdcard(SDCARD-M)
+Added Component: Designator=sensor_tuoluoyi(HDR1X7H)
+Added Component: Designator=TLV2462_1(SOP127P600X175-8L)
+Added Component: Designator=TLV2462_2(SOP127P600X175-8L)
+Added Component: Designator=TLV2462_3(SOP127P600X175-8L)
+Added Pin To Net: NetName=GND Pin=BSS306N-1
+Added Pin To Net: NetName=NetBSS306N_2 Pin=BSS306N-2
+Added Pin To Net: NetName=GND Pin=BSS306N-3
+Added Pin To Net: NetName=BUTTON1 Pin=button1-1
+Added Pin To Net: NetName=GND Pin=button1-2
+Added Pin To Net: NetName=BUTTON2 Pin=button2-1
+Added Pin To Net: NetName=GND Pin=button2-2
+Added Pin To Net: NetName=BUTTON3 Pin=button3-1
+Added Pin To Net: NetName=GND Pin=button3-2
+Added Pin To Net: NetName=BUTTON4 Pin=button4-1
+Added Pin To Net: NetName=GND Pin=button4-2
+Added Pin To Net: NetName=BUTTON5 Pin=button5-1
+Added Pin To Net: NetName=GND Pin=button5-2
+Added Pin To Net: NetName=BUTTON6 Pin=button6-1
+Added Pin To Net: NetName=GND Pin=button6-2
+Added Pin To Net: NetName=BUTTON7 Pin=button7-1
+Added Pin To Net: NetName=GND Pin=button7-2
+Added Pin To Net: NetName=GND Pin=C1-1
+Added Pin To Net: NetName=SIGNAL_OUT_L6 Pin=C1-2
+Added Pin To Net: NetName=NetC2_1 Pin=C2-1
+Added Pin To Net: NetName=3.3V Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=3.3V Pin=C3-2
+Added Pin To Net: NetName=NetBSS306N_2 Pin=C4-1
+Added Pin To Net: NetName=GND Pin=C4-2
+Added Pin To Net: NetName=GND Pin=C5-1
+Added Pin To Net: NetName=NetBSS306N_2 Pin=C5-2
+Added Pin To Net: NetName=GND Pin=C6-1
+Added Pin To Net: NetName=NetC6_1 Pin=C6-2
+Added Pin To Net: NetName=GND Pin=C7-1
+Added Pin To Net: NetName=NetC6_1 Pin=C7-2
+Added Pin To Net: NetName=GND Pin=C8-1
+Added Pin To Net: NetName=SIGNAL_OUT_L2 Pin=C8-2
+Added Pin To Net: NetName=GND Pin=C9-1
+Added Pin To Net: NetName=SIGNAL_OUT_L5 Pin=C9-2
+Added Pin To Net: NetName=GND Pin=C10-2
+Added Pin To Net: NetName=GND Pin=C11-1
+Added Pin To Net: NetName=SIGNAL_OUT_L1 Pin=C11-2
+Added Pin To Net: NetName=GND Pin=C12-2
+Added Pin To Net: NetName=GND Pin=C13-1
+Added Pin To Net: NetName=SIGNAL_OUT_L4 Pin=C13-2
+Added Pin To Net: NetName=GND Pin=C14-1
+Added Pin To Net: NetName=SIGNAL_OUT_L3 Pin=C14-2
+Added Pin To Net: NetName=GND Pin=C15-2
+Added Pin To Net: NetName=GND Pin=C16-1
+Added Pin To Net: NetName=NetBSS306N_2 Pin=C16-2
+Added Pin To Net: NetName=GND Pin=C18-1
+Added Pin To Net: NetName=3.3V Pin=C18-2
+Added Pin To Net: NetName=NetC30_1 Pin=C30-1
+Added Pin To Net: NetName=3.3V Pin=C30-2
+Added Pin To Net: NetName=GND Pin=C31-1
+Added Pin To Net: NetName=3.3V Pin=C31-2
+Added Pin To Net: NetName=GND Pin=C32-1
+Added Pin To Net: NetName=3.3V Pin=C32-2
+Added Pin To Net: NetName=GND Pin=CON1-1
+Added Pin To Net: NetName=NetBSS306N_2 Pin=CON1-2
+Added Pin To Net: NetName=3.3V Pin=D5-1
+Added Pin To Net: NetName=NetD5_2 Pin=D5-2
+Added Pin To Net: NetName=5V Pin=D6-1
+Added Pin To Net: NetName=NetD6_2 Pin=D6-2
+Added Pin To Net: NetName=3.3V Pin=D10-1
+Added Pin To Net: NetName=NetD10_2 Pin=D10-2
+Added Pin To Net: NetName=NetC6_1 Pin=F1-1
+Added Pin To Net: NetName=5V Pin=F1-2
+Added Pin To Net: NetName=GND Pin=interface_dianci-1
+Added Pin To Net: NetName=SIGNAL_IN_L1 Pin=interface_dianci-2
+Added Pin To Net: NetName=SIGNAL_IN_L2 Pin=interface_dianci-3
+Added Pin To Net: NetName=SIGNAL_IN_L3 Pin=interface_dianci-4
+Added Pin To Net: NetName=SIGNAL_IN_L4 Pin=interface_dianci-5
+Added Pin To Net: NetName=SIGNAL_IN_L5 Pin=interface_dianci-6
+Added Pin To Net: NetName=SIGNAL_IN_L6 Pin=interface_dianci-7
+Added Pin To Net: NetName=GND Pin=interface_sdcard-1
+Added Pin To Net: NetName=SDCARD_CS Pin=interface_sdcard-2
+Added Pin To Net: NetName=SDCARD_CLK Pin=interface_sdcard-3
+Added Pin To Net: NetName=SDCARD_MOSI Pin=interface_sdcard-4
+Added Pin To Net: NetName=SDCARD_MISO Pin=interface_sdcard-5
+Added Pin To Net: NetName=XOUT Pin=K60 144PIN V4.0系统板-105
+Added Pin To Net: NetName=YOUT Pin=K60 144PIN V4.0系统板-106
+Added Pin To Net: NetName=ZOUT Pin=K60 144PIN V4.0系统板-107
+Added Pin To Net: NetName=AR2 Pin=K60 144PIN V4.0系统板-108
+Added Pin To Net: NetName=PWM_LEFT2 Pin=K60 144PIN V4.0系统板-201
+Added Pin To Net: NetName=PWM_LEFT1 Pin=K60 144PIN V4.0系统板-204
+Added Pin To Net: NetName=SIGNAL_OUT_L6 Pin=K60 144PIN V4.0系统板-213
+Added Pin To Net: NetName=SIGNAL_OUT_L4 Pin=K60 144PIN V4.0系统板-217
+Added Pin To Net: NetName=SIGNAL_OUT_L5 Pin=K60 144PIN V4.0系统板-218
+Added Pin To Net: NetName=SIGNAL_OUT_L2 Pin=K60 144PIN V4.0系统板-219
+Added Pin To Net: NetName=SIGNAL_OUT_L3 Pin=K60 144PIN V4.0系统板-220
+Added Pin To Net: NetName=SIGNAL_OUT_L1 Pin=K60 144PIN V4.0系统板-224
+Added Pin To Net: NetName=AR1 Pin=K60 144PIN V4.0系统板-307
+Added Pin To Net: NetName=FTM2_QDPHA Pin=K60 144PIN V4.0系统板-322
+Added Pin To Net: NetName=FTM2_QDPHB Pin=K60 144PIN V4.0系统板-323
+Added Pin To Net: NetName=FTM1_QDPHA Pin=K60 144PIN V4.0系统板-324
+Added Pin To Net: NetName=FTM1_QDPHB Pin=K60 144PIN V4.0系统板-325
+Added Pin To Net: NetName=UART_TX Pin=K60 144PIN V4.0系统板-326
+Added Pin To Net: NetName=UART_RX Pin=K60 144PIN V4.0系统板-327
+Added Pin To Net: NetName=GND Pin=K60 144PIN V4.0系统板-331
+Added Pin To Net: NetName=GND Pin=K60 144PIN V4.0系统板-332
+Added Pin To Net: NetName=GND Pin=K60 144PIN V4.0系统板-401
+Added Pin To Net: NetName=PWM_RIGHT1 Pin=K60 144PIN V4.0系统板-409
+Added Pin To Net: NetName=PWM_RIGHT2 Pin=K60 144PIN V4.0系统板-410
+Added Pin To Net: NetName=BUTTON6 Pin=K60 144PIN V4.0系统板-415
+Added Pin To Net: NetName=BUTTON7 Pin=K60 144PIN V4.0系统板-416
+Added Pin To Net: NetName=BUTTON4 Pin=K60 144PIN V4.0系统板-417
+Added Pin To Net: NetName=BUTTON5 Pin=K60 144PIN V4.0系统板-418
+Added Pin To Net: NetName=BUTTON2 Pin=K60 144PIN V4.0系统板-419
+Added Pin To Net: NetName=BUTTON3 Pin=K60 144PIN V4.0系统板-420
+Added Pin To Net: NetName=SDCARD_MISO Pin=K60 144PIN V4.0系统板-421
+Added Pin To Net: NetName=BUTTON1 Pin=K60 144PIN V4.0系统板-422
+Added Pin To Net: NetName=SDCARD_CLK Pin=K60 144PIN V4.0系统板-423
+Added Pin To Net: NetName=SDCARD_MOSI Pin=K60 144PIN V4.0系统板-424
+Added Pin To Net: NetName=OLED_CS Pin=K60 144PIN V4.0系统板-425
+Added Pin To Net: NetName=SDCARD_CS Pin=K60 144PIN V4.0系统板-426
+Added Pin To Net: NetName=OLED_RST Pin=K60 144PIN V4.0系统板-427
+Added Pin To Net: NetName=OLED_DS Pin=K60 144PIN V4.0系统板-428
+Added Pin To Net: NetName=OLED_D0 Pin=K60 144PIN V4.0系统板-429
+Added Pin To Net: NetName=OLED_D1 Pin=K60 144PIN V4.0系统板-430
+Added Pin To Net: NetName=5V Pin=K60 144PIN V4.0系统板-432
+Added Pin To Net: NetName=NetBSS306N_2 Pin=L6932-1-1
+Added Pin To Net: NetName=NetBSS306N_2 Pin=L6932-1-2
+Added Pin To Net: NetName=NetC2_1 Pin=L6932-1-3
+Added Pin To Net: NetName=3.3V Pin=L6932-1-4
+Added Pin To Net: NetName=GND Pin=L6932-1-5
+Added Pin To Net: NetName=GND Pin=L6932-1-6
+Added Pin To Net: NetName=GND Pin=L6932-1-7
+Added Pin To Net: NetName=GND Pin=L6932-1-8
+Added Pin To Net: NetName=NetBSS306N_2 Pin=L6932-2-1
+Added Pin To Net: NetName=NetBSS306N_2 Pin=L6932-2-2
+Added Pin To Net: NetName=NetC30_1 Pin=L6932-2-3
+Added Pin To Net: NetName=3.3V Pin=L6932-2-4
+Added Pin To Net: NetName=GND Pin=L6932-2-5
+Added Pin To Net: NetName=GND Pin=L6932-2-6
+Added Pin To Net: NetName=GND Pin=L6932-2-7
+Added Pin To Net: NetName=GND Pin=L6932-2-8
+Added Pin To Net: NetName=GND Pin=LM1117-5-1
+Added Pin To Net: NetName=NetC6_1 Pin=LM1117-5-2
+Added Pin To Net: NetName=NetBSS306N_2 Pin=LM1117-5-3
+Added Pin To Net: NetName=GND Pin=oled-1
+Added Pin To Net: NetName=3.3V Pin=oled-2
+Added Pin To Net: NetName=OLED_D0 Pin=oled-3
+Added Pin To Net: NetName=OLED_D1 Pin=oled-4
+Added Pin To Net: NetName=OLED_RST Pin=oled-5
+Added Pin To Net: NetName=OLED_DS Pin=oled-6
+Added Pin To Net: NetName=OLED_CS Pin=oled-7
+Added Pin To Net: NetName=GND Pin=omron_encoder_left-1
+Added Pin To Net: NetName=5V Pin=omron_encoder_left-2
+Added Pin To Net: NetName=FTM2_QDPHA Pin=omron_encoder_left-3
+Added Pin To Net: NetName=FTM2_QDPHB Pin=omron_encoder_left-4
+Added Pin To Net: NetName=GND Pin=omron_encoder_right-1
+Added Pin To Net: NetName=5V Pin=omron_encoder_right-2
+Added Pin To Net: NetName=FTM1_QDPHA Pin=omron_encoder_right-3
+Added Pin To Net: NetName=FTM1_QDPHB Pin=omron_encoder_right-4
+Added Pin To Net: NetName=SDCARD_CS Pin=paizu1-1
+Added Pin To Net: NetName=SDCARD_CLK Pin=paizu1-2
+Added Pin To Net: NetName=SDCARD_MOSI Pin=paizu1-3
+Added Pin To Net: NetName=SDCARD_MISO Pin=paizu1-4
+Added Pin To Net: NetName=3.3V Pin=paizu1-13
+Added Pin To Net: NetName=3.3V Pin=paizu1-14
+Added Pin To Net: NetName=3.3V Pin=paizu1-15
+Added Pin To Net: NetName=3.3V Pin=paizu1-16
+Added Pin To Net: NetName=GND Pin=pwm-1
+Added Pin To Net: NetName=PWM_RIGHT2 Pin=pwm-2
+Added Pin To Net: NetName=PWM_RIGHT1 Pin=pwm-3
+Added Pin To Net: NetName=PWM_LEFT2 Pin=pwm-4
+Added Pin To Net: NetName=PWM_LEFT1 Pin=pwm-5
+Added Pin To Net: NetName=GND Pin=R1-1
+Added Pin To Net: NetName=NetD5_2 Pin=R1-2
+Added Pin To Net: NetName=GND Pin=R2-1
+Added Pin To Net: NetName=NetD6_2 Pin=R2-2
+Added Pin To Net: NetName=PWM_RIGHT1 Pin=R3-1
+Added Pin To Net: NetName=GND Pin=R3-2
+Added Pin To Net: NetName=PWM_RIGHT2 Pin=R4-1
+Added Pin To Net: NetName=GND Pin=R4-2
+Added Pin To Net: NetName=SIGNAL_IN_L6 Pin=R9-1
+Added Pin To Net: NetName=NetR9_2 Pin=R9-2
+Added Pin To Net: NetName=GND Pin=R10-1
+Added Pin To Net: NetName=NetR10_2 Pin=R10-2
+Added Pin To Net: NetName=NetR10_2 Pin=R11-1
+Added Pin To Net: NetName=NetR11_2 Pin=R11-2
+Added Pin To Net: NetName=NetR12_1 Pin=R12-1
+Added Pin To Net: NetName=SIGNAL_OUT_L6 Pin=R12-2
+Added Pin To Net: NetName=NetR11_2 Pin=R13-1
+Added Pin To Net: NetName=NetR12_1 Pin=R13-2
+Added Pin To Net: NetName=NetR12_1 Pin=R13-3
+Added Pin To Net: NetName=NetC2_1 Pin=R15-1
+Added Pin To Net: NetName=3.3V Pin=R15-2
+Added Pin To Net: NetName=GND Pin=R16-1
+Added Pin To Net: NetName=NetC2_1 Pin=R16-2
+Added Pin To Net: NetName=FTM1_QDPHA Pin=R17-1
+Added Pin To Net: NetName=5V Pin=R17-2
+Added Pin To Net: NetName=FTM1_QDPHB Pin=R18-1
+Added Pin To Net: NetName=5V Pin=R18-2
+Added Pin To Net: NetName=FTM2_QDPHA Pin=R19-1
+Added Pin To Net: NetName=5V Pin=R19-2
+Added Pin To Net: NetName=FTM2_QDPHB Pin=R20-1
+Added Pin To Net: NetName=5V Pin=R20-2
+Added Pin To Net: NetName=SIGNAL_IN_L5 Pin=R21-1
+Added Pin To Net: NetName=NetR21_2 Pin=R21-2
+Added Pin To Net: NetName=SIGNAL_IN_L4 Pin=R24-1
+Added Pin To Net: NetName=NetR24_2 Pin=R24-2
+Added Pin To Net: NetName=SIGNAL_IN_L3 Pin=R25-1
+Added Pin To Net: NetName=NetR25_2 Pin=R25-2
+Added Pin To Net: NetName=SIGNAL_IN_L2 Pin=R26-1
+Added Pin To Net: NetName=NetR26_2 Pin=R26-2
+Added Pin To Net: NetName=GND Pin=R27-1
+Added Pin To Net: NetName=NetR27_2 Pin=R27-2
+Added Pin To Net: NetName=GND Pin=R28-1
+Added Pin To Net: NetName=NetR28_2 Pin=R28-2
+Added Pin To Net: NetName=GND Pin=R29-1
+Added Pin To Net: NetName=NetR29_2 Pin=R29-2
+Added Pin To Net: NetName=GND Pin=R30-1
+Added Pin To Net: NetName=NetR30_2 Pin=R30-2
+Added Pin To Net: NetName=PWM_LEFT1 Pin=R31-1
+Added Pin To Net: NetName=GND Pin=R31-2
+Added Pin To Net: NetName=NetR27_2 Pin=R32-1
+Added Pin To Net: NetName=NetR32_2 Pin=R32-2
+Added Pin To Net: NetName=NetR28_2 Pin=R33-1
+Added Pin To Net: NetName=NetR33_2 Pin=R33-2
+Added Pin To Net: NetName=NetR29_2 Pin=R34-1
+Added Pin To Net: NetName=NetR34_2 Pin=R34-2
+Added Pin To Net: NetName=NetR35_1 Pin=R35-1
+Added Pin To Net: NetName=NetR35_2 Pin=R35-2
+Added Pin To Net: NetName=NetR30_2 Pin=R36-1
+Added Pin To Net: NetName=NetR36_2 Pin=R36-2
+Added Pin To Net: NetName=NetR37_1 Pin=R37-1
+Added Pin To Net: NetName=SIGNAL_OUT_L5 Pin=R37-2
+Added Pin To Net: NetName=NetR38_1 Pin=R38-1
+Added Pin To Net: NetName=SIGNAL_OUT_L4 Pin=R38-2
+Added Pin To Net: NetName=NetR39_1 Pin=R39-1
+Added Pin To Net: NetName=SIGNAL_OUT_L3 Pin=R39-2
+Added Pin To Net: NetName=NetR40_1 Pin=R40-1
+Added Pin To Net: NetName=SIGNAL_OUT_L1 Pin=R40-2
+Added Pin To Net: NetName=NetR37_1 Pin=R41-1
+Added Pin To Net: NetName=NetR32_2 Pin=R41-2
+Added Pin To Net: NetName=NetR37_1 Pin=R41-3
+Added Pin To Net: NetName=NetR38_1 Pin=R42-1
+Added Pin To Net: NetName=NetR33_2 Pin=R42-2
+Added Pin To Net: NetName=NetR38_1 Pin=R42-3
+Added Pin To Net: NetName=NetR43_1 Pin=R43-1
+Added Pin To Net: NetName=NetR35_2 Pin=R43-2
+Added Pin To Net: NetName=NetR43_1 Pin=R43-3
+Added Pin To Net: NetName=NetR40_1 Pin=R44-1
+Added Pin To Net: NetName=NetR36_2 Pin=R44-2
+Added Pin To Net: NetName=NetR40_1 Pin=R44-3
+Added Pin To Net: NetName=PWM_LEFT2 Pin=R45-1
+Added Pin To Net: NetName=GND Pin=R45-2
+Added Pin To Net: NetName=SIGNAL_IN_L1 Pin=R46-1
+Added Pin To Net: NetName=NetR46_2 Pin=R46-2
+Added Pin To Net: NetName=GND Pin=R47-1
+Added Pin To Net: NetName=NetR35_1 Pin=R47-2
+Added Pin To Net: NetName=NetR43_1 Pin=R48-1
+Added Pin To Net: NetName=SIGNAL_OUT_L2 Pin=R48-2
+Added Pin To Net: NetName=NetR39_1 Pin=R49-1
+Added Pin To Net: NetName=NetR34_2 Pin=R49-2
+Added Pin To Net: NetName=NetR39_1 Pin=R49-3
+Added Pin To Net: NetName=NetR50_1 Pin=R50-1
+Added Pin To Net: NetName=3.3V Pin=R50-2
+Added Pin To Net: NetName=GND Pin=R60-1
+Added Pin To Net: NetName=NetD10_2 Pin=R60-2
+Added Pin To Net: NetName=NetC30_1 Pin=R61-1
+Added Pin To Net: NetName=3.3V Pin=R61-2
+Added Pin To Net: NetName=GND Pin=R62-1
+Added Pin To Net: NetName=NetC30_1 Pin=R62-2
+Added Pin To Net: NetName=GND Pin=S8-1
+Added Pin To Net: NetName=NetR50_1 Pin=S8-2
+Added Pin To Net: NetName=SDCARD_CS Pin=sdcard-2
+Added Pin To Net: NetName=SDCARD_MOSI Pin=sdcard-3
+Added Pin To Net: NetName=3.3V Pin=sdcard-4
+Added Pin To Net: NetName=SDCARD_CLK Pin=sdcard-5
+Added Pin To Net: NetName=GND Pin=sdcard-6
+Added Pin To Net: NetName=SDCARD_MISO Pin=sdcard-7
+Added Pin To Net: NetName=GND Pin=sdcard-10
+Added Pin To Net: NetName=GND Pin=sdcard-11
+Added Pin To Net: NetName=GND Pin=sdcard-12
+Added Pin To Net: NetName=GND Pin=sdcard-13
+Added Pin To Net: NetName=AR2 Pin=sensor_tuoluoyi-1
+Added Pin To Net: NetName=AR1 Pin=sensor_tuoluoyi-2
+Added Pin To Net: NetName=3.3V Pin=sensor_tuoluoyi-3
+Added Pin To Net: NetName=GND Pin=sensor_tuoluoyi-4
+Added Pin To Net: NetName=ZOUT Pin=sensor_tuoluoyi-5
+Added Pin To Net: NetName=YOUT Pin=sensor_tuoluoyi-6
+Added Pin To Net: NetName=XOUT Pin=sensor_tuoluoyi-7
+Added Pin To Net: NetName=NetR40_1 Pin=TLV2462_1-1
+Added Pin To Net: NetName=NetR30_2 Pin=TLV2462_1-2
+Added Pin To Net: NetName=NetR46_2 Pin=TLV2462_1-3
+Added Pin To Net: NetName=GND Pin=TLV2462_1-4
+Added Pin To Net: NetName=NetR26_2 Pin=TLV2462_1-5
+Added Pin To Net: NetName=NetR35_1 Pin=TLV2462_1-6
+Added Pin To Net: NetName=NetR43_1 Pin=TLV2462_1-7
+Added Pin To Net: NetName=3.3V Pin=TLV2462_1-8
+Added Pin To Net: NetName=NetR39_1 Pin=TLV2462_2-1
+Added Pin To Net: NetName=NetR29_2 Pin=TLV2462_2-2
+Added Pin To Net: NetName=NetR25_2 Pin=TLV2462_2-3
+Added Pin To Net: NetName=GND Pin=TLV2462_2-4
+Added Pin To Net: NetName=NetR24_2 Pin=TLV2462_2-5
+Added Pin To Net: NetName=NetR28_2 Pin=TLV2462_2-6
+Added Pin To Net: NetName=NetR38_1 Pin=TLV2462_2-7
+Added Pin To Net: NetName=3.3V Pin=TLV2462_2-8
+Added Pin To Net: NetName=NetR37_1 Pin=TLV2462_3-1
+Added Pin To Net: NetName=NetR27_2 Pin=TLV2462_3-2
+Added Pin To Net: NetName=NetR21_2 Pin=TLV2462_3-3
+Added Pin To Net: NetName=GND Pin=TLV2462_3-4
+Added Pin To Net: NetName=NetR9_2 Pin=TLV2462_3-5
+Added Pin To Net: NetName=NetR10_2 Pin=TLV2462_3-6
+Added Pin To Net: NetName=NetR12_1 Pin=TLV2462_3-7
+Added Pin To Net: NetName=3.3V Pin=TLV2462_3-8
+Added Member To Class: ClassName=control Member=Component BSS306N MOSFET-N
+Added Member To Class: ClassName=control Member=Component button1 SW-PB
+Added Member To Class: ClassName=control Member=Component button2 SW-PB
+Added Member To Class: ClassName=control Member=Component button3 SW-PB
+Added Member To Class: ClassName=control Member=Component button4 SW-PB
+Added Member To Class: ClassName=control Member=Component button5 SW-PB
+Added Member To Class: ClassName=control Member=Component button6 SW-PB
+Added Member To Class: ClassName=control Member=Component button7 SW-PB
+Added Member To Class: ClassName=control Member=Component C1 Cap
+Added Member To Class: ClassName=control Member=Component C2 Cap
+Added Member To Class: ClassName=control Member=Component C3 Cap
+Added Member To Class: ClassName=control Member=Component C4 Cap Pol1
+Added Member To Class: ClassName=control Member=Component C5 Cap Pol1
+Added Member To Class: ClassName=control Member=Component C6 Cap Pol1
+Added Member To Class: ClassName=control Member=Component C7 Cap Pol1
+Added Member To Class: ClassName=control Member=Component C8 Cap
+Added Member To Class: ClassName=control Member=Component C9 Cap
+Added Member To Class: ClassName=control Member=Component C10 Cap
+Added Member To Class: ClassName=control Member=Component C11 Cap
+Added Member To Class: ClassName=control Member=Component C12 Cap
+Added Member To Class: ClassName=control Member=Component C13 Cap
+Added Member To Class: ClassName=control Member=Component C14 Cap
+Added Member To Class: ClassName=control Member=Component C15 Cap
+Added Member To Class: ClassName=control Member=Component C16 Cap
+Added Member To Class: ClassName=control Member=Component C18 Cap
+Added Member To Class: ClassName=control Member=Component C30 Cap
+Added Member To Class: ClassName=control Member=Component C31 Cap
+Added Member To Class: ClassName=control Member=Component C32 Cap
+Added Member To Class: ClassName=control Member=Component CON1 PowerIn
+Added Member To Class: ClassName=control Member=Component D5 LED2
+Added Member To Class: ClassName=control Member=Component D6 LED2
+Added Member To Class: ClassName=control Member=Component D10 LED2
+Added Member To Class: ClassName=control Member=Component F1 Fuse 2
+Added Member To Class: ClassName=control Member=Component interface_dianci
+Added Member To Class: ClassName=control Member=Component interface_sdcard
+Added Member To Class: ClassName=control Member=Component K60 144PIN V4.0系统板 U?
+Added Member To Class: ClassName=control Member=Component L6932-1 L6932
+Added Member To Class: ClassName=control Member=Component L6932-2 L6932
+Added Member To Class: ClassName=control Member=Component LM1117-5
+Added Member To Class: ClassName=control Member=Component oled
+Added Member To Class: ClassName=control Member=Component omron_encoder_left omron_encoder
+Added Member To Class: ClassName=control Member=Component omron_encoder_right omron_encoder
+Added Member To Class: ClassName=control Member=Component paizu1
+Added Member To Class: ClassName=control Member=Component pwm
+Added Member To Class: ClassName=control Member=Component R1 Res2
+Added Member To Class: ClassName=control Member=Component R2 Res2
+Added Member To Class: ClassName=control Member=Component R3 Res2
+Added Member To Class: ClassName=control Member=Component R4 Res2
+Added Member To Class: ClassName=control Member=Component R9 Res2
+Added Member To Class: ClassName=control Member=Component R10 Res2
+Added Member To Class: ClassName=control Member=Component R11 Res2
+Added Member To Class: ClassName=control Member=Component R12 Res2
+Added Member To Class: ClassName=control Member=Component R13 47K
+Added Member To Class: ClassName=control Member=Component R15 Res2
+Added Member To Class: ClassName=control Member=Component R16 Res2
+Added Member To Class: ClassName=control Member=Component R17 Res2
+Added Member To Class: ClassName=control Member=Component R18 Res2
+Added Member To Class: ClassName=control Member=Component R19 Res2
+Added Member To Class: ClassName=control Member=Component R20 Res2
+Added Member To Class: ClassName=control Member=Component R21 Res2
+Added Member To Class: ClassName=control Member=Component R24 Res2
+Added Member To Class: ClassName=control Member=Component R25 Res2
+Added Member To Class: ClassName=control Member=Component R26 Res2
+Added Member To Class: ClassName=control Member=Component R27 Res2
+Added Member To Class: ClassName=control Member=Component R28 Res2
+Added Member To Class: ClassName=control Member=Component R29 Res2
+Added Member To Class: ClassName=control Member=Component R30 Res2
+Added Member To Class: ClassName=control Member=Component R31 Res2
+Added Member To Class: ClassName=control Member=Component R32 Res2
+Added Member To Class: ClassName=control Member=Component R33 Res2
+Added Member To Class: ClassName=control Member=Component R34 Res2
+Added Member To Class: ClassName=control Member=Component R35 Res2
+Added Member To Class: ClassName=control Member=Component R36 Res2
+Added Member To Class: ClassName=control Member=Component R37 Res2
+Added Member To Class: ClassName=control Member=Component R38 Res2
+Added Member To Class: ClassName=control Member=Component R39 Res2
+Added Member To Class: ClassName=control Member=Component R40 Res2
+Added Member To Class: ClassName=control Member=Component R41 R4
+Added Member To Class: ClassName=control Member=Component R42 R4
+Added Member To Class: ClassName=control Member=Component R43 R4
+Added Member To Class: ClassName=control Member=Component R44 R4
+Added Member To Class: ClassName=control Member=Component R45 Res2
+Added Member To Class: ClassName=control Member=Component R46 Res2
+Added Member To Class: ClassName=control Member=Component R47 Res2
+Added Member To Class: ClassName=control Member=Component R48 Res2
+Added Member To Class: ClassName=control Member=Component R49 R4
+Added Member To Class: ClassName=control Member=Component R50 Res2
+Added Member To Class: ClassName=control Member=Component R60 Res2
+Added Member To Class: ClassName=control Member=Component R61 Res2
+Added Member To Class: ClassName=control Member=Component R62 Res2
+Added Member To Class: ClassName=control Member=Component S8 SW-PB
+Added Member To Class: ClassName=control Member=Component sdcard
+Added Member To Class: ClassName=control Member=Component sensor_tuoluoyi Component_sensor_tuoluoyi
+Added Member To Class: ClassName=control Member=Component TLV2462_1 TLV2462
+Added Member To Class: ClassName=control Member=Component TLV2462_2 TLV2462
+Added Member To Class: ClassName=control Member=Component TLV2462_3 TLV2462
+Added Room: Name=control
