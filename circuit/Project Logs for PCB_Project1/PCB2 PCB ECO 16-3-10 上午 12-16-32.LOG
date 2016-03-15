@@ -1,6 +1,0 @@
-Added Component: Designator=POWER(HDR1X4H)
-Added Pin To Net: NetName=GND Pin=POWER-1
-Added Pin To Net: NetName=GND Pin=POWER-2
-Added Pin To Net: NetName=3.3V Pin=POWER-3
-Added Pin To Net: NetName=5V Pin=POWER-4
-Added Member To Class: ClassName=control Member=Component POWER power

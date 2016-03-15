@@ -47,14 +47,24 @@
 #define pin_SDCARD_MISO PTC12_IN
 
 //button
-#define pin_button1 PTC13
-#define pin_button2 PTC14
-#define pin_button3 PTC15
-#define pin_button4 PTC16
-#define pin_button5 PTC17
-#define pin_button6 PTC18
-#define pin_button7 PTC19
 
+//拨码
+#define pin_button_boma1 PTC13
+#define pin_button_boma2 PTC14
+#define pin_button_boma3 PTC15
+#define pin_button_boma4 PTC16
+#define pin_button_boma5 PTC17
+#define pin_button_boma6 PTC18
+#define pin_button_boma7 PTC19
+#define pin_button_boma8 PTE4
+
+//轻触
+#define pin_button_qingchu1 PTE5
+#define pin_button_qingchu2 PTE6
+#define pin_button_qingchu3 PTE7
+#define pin_button_qingchu4 PTE8
+#define pin_button_qingchu5 PTE9
+#define pin_button_qingchu6 PTE10
 
 //button
 
