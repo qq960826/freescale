@@ -68,6 +68,7 @@ unsigned long long system_time_ms=0;
 float angle;
 
 
+
 void  main(void)
 {
   
@@ -82,12 +83,12 @@ void  main(void)
   //sd_read();
   
   while(1){
-  //sensor_accelerator_read();
-  //sensor_accelerator_calculate();
+  sensor_accelerator_read();
+  sensor_accelerator_calculate();
   //motor_left_pid(10);
-  //motor_right_pid(10);
+  motor_right_pid(10);
   
-  sensor_electromagnet_read();
+  //sensor_electromagnet_read();
   
   printf("%lld\n",electromagnet_L6);
   

@@ -19,7 +19,7 @@ void pit_hander_time_recoder(){
 void pit_hander_omron_encoder(){
   if(omron_encoder_right_now>1<<29) omron_encoder_right_now=0;//防止溢出
   omron_encoder_right_last=omron_encoder_right_now;
-  omron_encoder_right_now+=FTM_QUAD_get(FTM1);
+  omron_encoder_right_now-=FTM_QUAD_get(FTM1);
   omron_encoder_left_last=omron_encoder_left_now;
   omron_encoder_left_now+=FTM_QUAD_get(FTM2);
   
@@ -66,7 +66,7 @@ void car_init(){
   FTM_PWM_init(FTM0,pin_PWM_right1,10*1000,0);
   FTM_PWM_init(FTM0,pin_PWM_right2,10*1000,0);
   FTM_PWM_init(FTM0,pin_PWM_left1,10*1000,0);
-  FTM_PWM_init(FTM0,pin_PWM_left2,10*1000,100);
+  FTM_PWM_init(FTM0,pin_PWM_left2,10*1000,0);
 
   //FTM_init
   FTM_QUAD_Init(FTM1);                                    //FTM1 正交解码初始化（所用的管脚可查 vcan_port_cfg.h ）

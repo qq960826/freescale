@@ -239,14 +239,18 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [GeneratedDocument1]
-DocumentPath=Schlib_k60_core.cmp
+DocumentPath=Output\Design Rule Check - PCB2.html
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Schlib_k60_core.csv
+DocumentPath=Schlib_k60_core.cmp
 DItemRevisionGUID=
 
 [GeneratedDocument3]
+DocumentPath=Schlib_k60_core.csv
+DItemRevisionGUID=
+
+[GeneratedDocument4]
 DocumentPath=Schlib_k60_core.rep
 DItemRevisionGUID=
 
