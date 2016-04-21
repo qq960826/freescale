@@ -1,0 +1,10 @@
+Added Component: Designator=K60 144PIN V4.0系统板(K60 V4.0最小系统版)
+Added Component: Designator=R?(AXIAL-0.4)
+Added Component: Designator=R?(AXIAL-0.4)
+Added Pin To Net: NetName=NetK60 144PIN V4.0系统板_120 Pin=K60 144PIN V4.0系统板-120
+Added Pin To Net: NetName=NetK60 144PIN V4.0系统板_325 Pin=K60 144PIN V4.0系统板-325
+Added Pin To Net: NetName=NetK60 144PIN V4.0系统板_120 Pin=R?-1
+Added Pin To Net: NetName=NetK60 144PIN V4.0系统板_325 Pin=R?-2
+Added Member To Class: ClassName=Sheet1 Member=Component K60 144PIN V4.0系统板 U?
+Added Member To Class: ClassName=Sheet1 Member=Component R? Res2
+Added Room: Name=Sheet1

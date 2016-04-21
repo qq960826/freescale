@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=NetK60 144PIN V4.0系统板_219 Pin=R?-2
+Change Component Designator: OldDesignator=R? NewDesignator=R1
+Change Component Designator: OldDesignator=R? NewDesignator=R2
+Added Pin To Net: NetName=NetK60 144PIN V4.0系统板_219 Pin=R1-2
+Added Member To Class: ClassName=Sheet1 Member=Component R2 Res2

@@ -180,17 +180,6 @@ public class MainActivity extends Activity {
         mOutStringBuffer = new StringBuffer("");
     }
 
-    @Override
-    public synchronized void onPause() {
-        super.onPause();
-        if(D) Log.e(TAG, "- ON PAUSE -");
-    }
-
-    @Override
-    public void onStop() {
-        super.onStop();
-        if(D) Log.e(TAG, "-- ON STOP --");
-    }
 
     @Override
     public void onDestroy() {

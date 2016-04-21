@@ -21,6 +21,7 @@
 #include "calculate.h"
 #include "io.h"
 #include "sdcard.h"
+#include "stdio.h"
 #define BUFF_SIZE   100
 
 
@@ -68,14 +69,27 @@ unsigned long long system_time_ms=0;
 float angle;
 
 
+void main(){
+car_init();
+while(1){
+  sensor_electromagnet_read();
+  printf("%lld\n",electromagnet_L1-electromagnet_L2);
 
-void  main(void)
+
+}
+
+
+}
+
+
+void  main1(void)
 {
   
- // OLED_Init();
-  //OLED_Fill(0x00);//ºÚÆÁ
+ OLED_Init();
+  OLED_Fill(0x00);//ºÚÆÁ
   car_init();
-  //OLED_P8x16Str(5,0,"test");
+  
+  OLED_P8x16Str(5,0,"test");
   
   
   
@@ -85,14 +99,21 @@ void  main(void)
   while(1){
   sensor_accelerator_read();
   sensor_accelerator_calculate();
-  //motor_left_pid(10);
-  motor_right_pid(10);
-  
+  char buffer [100] ;
+
+  sprintf(buffer,"%d",(int)angle);
+  //OLED_P8x16Str(5,0,"    ");
+
+  OLED_P8x16Str(6,0,buffer);
+ //motor_left_pid(1);
+ //motor_right_pid(0);
+  angle_control(20);
   //sensor_electromagnet_read();
   
-  printf("%lld\n",electromagnet_L6);
+  //printf("%lld\n",electromagnet_L6);
   
   }
 
  
 }
+#define main test

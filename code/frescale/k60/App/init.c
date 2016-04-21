@@ -81,7 +81,7 @@ void car_init(){
   enable_irq(PIT0_IRQn);
   
   //计时器二，计算速度
-  pit_init_us(PIT1,1000);
+  pit_init_us(PIT1,2000);
   set_vector_handler(PIT1_VECTORn,pit_hander_omron_encoder);
   enable_irq(PIT1_IRQn);
   
