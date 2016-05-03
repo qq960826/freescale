@@ -1,0 +1,504 @@
+Added Component: Designator=bluetooth(HDR1X4)
+Added Component: Designator=boma1(config_8)
+Added Component: Designator=BSS306N(SOT-23_M)
+Added Component: Designator=button1(button)
+Added Component: Designator=button2(button)
+Added Component: Designator=button3(button)
+Added Component: Designator=button4(button)
+Added Component: Designator=button5(button)
+Added Component: Designator=button6(button)
+Added Component: Designator=C2(0805)
+Added Component: Designator=C3(0805)
+Added Component: Designator=C4(RB5-10.5)
+Added Component: Designator=C5(钽电容_小)
+Added Component: Designator=C6(D7343)
+Added Component: Designator=C7(钽电容_小)
+Added Component: Designator=C16(0805)
+Added Component: Designator=C18(0805)
+Added Component: Designator=C30(0805)
+Added Component: Designator=C31(0805)
+Added Component: Designator=C32(0805)
+Added Component: Designator=CA1(0805)
+Added Component: Designator=CB1(0805)
+Added Component: Designator=CB2(0805)
+Added Component: Designator=CC3(0805)
+Added Component: Designator=CD1(0805)
+Added Component: Designator=CD2(0805)
+Added Component: Designator=CE1(0805)
+Added Component: Designator=CF1(0805)
+Added Component: Designator=CF2(0805)
+Added Component: Designator=CON1(接线端子)
+Added Component: Designator=dianciR1(滑动变阻器)
+Added Component: Designator=dianciR2(滑动变阻器)
+Added Component: Designator=dianciR3(滑动变阻器)
+Added Component: Designator=dianciR4(滑动变阻器)
+Added Component: Designator=dianciR5(滑动变阻器)
+Added Component: Designator=dianciR6(滑动变阻器)
+Added Component: Designator=dianci(HDR1X7H)
+Added Component: Designator=F1(0805)
+Added Component: Designator=interface_sdcard(HDR1X5H)
+Added Component: Designator=K60(K60 V4.0最小系统版)
+Added Component: Designator=L6932-1(L6932)
+Added Component: Designator=L6932-2(L6932)
+Added Component: Designator=LED_3.3_1(0805)
+Added Component: Designator=LED_3.3_2(0805)
+Added Component: Designator=LED_5(0805)
+Added Component: Designator=LM1117-5(SOT223_M)
+Added Component: Designator=oled(HDR1X7H)
+Added Component: Designator=omron_left(HDR1X4H)
+Added Component: Designator=omron_right(HDR1X4H)
+Added Component: Designator=paizu1(paizu)
+Added Component: Designator=paizu2(paizu)
+Added Component: Designator=paizu3(paizu)
+Added Component: Designator=POWER(HDR1X4H)
+Added Component: Designator=pwm(HDR1X5H)
+Added Component: Designator=R1(0805)
+Added Component: Designator=R2(0805)
+Added Component: Designator=R10k_7(0805)
+Added Component: Designator=R10k_8(0805)
+Added Component: Designator=R15(0805)
+Added Component: Designator=R60(0805)
+Added Component: Designator=R61(0805)
+Added Component: Designator=RA1(0805)
+Added Component: Designator=RA2(0805)
+Added Component: Designator=RA3(0805)
+Added Component: Designator=RA4(0805)
+Added Component: Designator=RB1(0805)
+Added Component: Designator=RB2(0805)
+Added Component: Designator=RB3(0805)
+Added Component: Designator=RB4(0805)
+Added Component: Designator=RC1(0805)
+Added Component: Designator=RC2(0805)
+Added Component: Designator=RC3(0805)
+Added Component: Designator=RC4(0805)
+Added Component: Designator=RD1(0805)
+Added Component: Designator=RD2(0805)
+Added Component: Designator=RD3(0805)
+Added Component: Designator=RD4(0805)
+Added Component: Designator=RE1(0805)
+Added Component: Designator=RE2(0805)
+Added Component: Designator=RE3(0805)
+Added Component: Designator=RE4(0805)
+Added Component: Designator=RF1(0805)
+Added Component: Designator=RF2(0805)
+Added Component: Designator=RF3(0805)
+Added Component: Designator=RF4(0805)
+Added Component: Designator=sdcard(SDCARD-M)
+Added Component: Designator=TLV2462_1(SOP127P600X175-8L)
+Added Component: Designator=TLV2462_2(SOP127P600X175-8L)
+Added Component: Designator=TLV2462_3(SOP127P600X175-8L)
+Added Component: Designator=tuoluoyi(HDR1X7H)
+Added Pin To Net: NetName=3.3V Pin=bluetooth-1
+Added Pin To Net: NetName=3.3V Pin=C2-2
+Added Pin To Net: NetName=3.3V Pin=C3-2
+Added Pin To Net: NetName=3.3V Pin=C18-2
+Added Pin To Net: NetName=3.3V Pin=C30-2
+Added Pin To Net: NetName=3.3V Pin=C31-2
+Added Pin To Net: NetName=3.3V Pin=C32-2
+Added Pin To Net: NetName=3.3V Pin=L6932-1-4
+Added Pin To Net: NetName=3.3V Pin=L6932-2-4
+Added Pin To Net: NetName=3.3V Pin=LED_3.3_1-1
+Added Pin To Net: NetName=3.3V Pin=LED_3.3_2-1
+Added Pin To Net: NetName=3.3V Pin=oled-2
+Added Pin To Net: NetName=3.3V Pin=paizu1-2
+Added Pin To Net: NetName=3.3V Pin=paizu1-4
+Added Pin To Net: NetName=3.3V Pin=paizu1-6
+Added Pin To Net: NetName=3.3V Pin=paizu1-8
+Added Pin To Net: NetName=3.3V Pin=POWER-3
+Added Pin To Net: NetName=3.3V Pin=R15-2
+Added Pin To Net: NetName=3.3V Pin=R61-2
+Added Pin To Net: NetName=3.3V Pin=sdcard-4
+Added Pin To Net: NetName=3.3V Pin=TLV2462_1-8
+Added Pin To Net: NetName=3.3V Pin=TLV2462_2-8
+Added Pin To Net: NetName=3.3V Pin=TLV2462_3-8
+Added Pin To Net: NetName=3.3V Pin=tuoluoyi-3
+Added Net: Name=3.3V
+Added Pin To Net: NetName=5V Pin=F1-2
+Added Pin To Net: NetName=5V Pin=K60-124
+Added Pin To Net: NetName=5V Pin=LED_5-1
+Added Pin To Net: NetName=5V Pin=omron_left-2
+Added Pin To Net: NetName=5V Pin=omron_right-2
+Added Pin To Net: NetName=5V Pin=paizu3-2
+Added Pin To Net: NetName=5V Pin=paizu3-4
+Added Pin To Net: NetName=5V Pin=paizu3-6
+Added Pin To Net: NetName=5V Pin=paizu3-8
+Added Pin To Net: NetName=5V Pin=POWER-4
+Added Net: Name=5V
+Added Pin To Net: NetName=AR1 Pin=K60-318
+Added Pin To Net: NetName=AR1 Pin=tuoluoyi-2
+Added Net: Name=AR1
+Added Pin To Net: NetName=AR2 Pin=K60-213
+Added Pin To Net: NetName=AR2 Pin=tuoluoyi-1
+Added Net: Name=AR2
+Added Pin To Net: NetName=BUTTON_BOMA1 Pin=boma1-1
+Added Pin To Net: NetName=BUTTON_BOMA1 Pin=K60-109
+Added Net: Name=BUTTON_BOMA1
+Added Pin To Net: NetName=BUTTON_BOMA2 Pin=boma1-3
+Added Pin To Net: NetName=BUTTON_BOMA2 Pin=K60-110
+Added Net: Name=BUTTON_BOMA2
+Added Pin To Net: NetName=BUTTON_BOMA3 Pin=boma1-5
+Added Pin To Net: NetName=BUTTON_BOMA3 Pin=K60-111
+Added Net: Name=BUTTON_BOMA3
+Added Pin To Net: NetName=BUTTON_BOMA4 Pin=boma1-7
+Added Pin To Net: NetName=BUTTON_BOMA4 Pin=K60-112
+Added Net: Name=BUTTON_BOMA4
+Added Pin To Net: NetName=BUTTON_BOMA5 Pin=boma1-9
+Added Pin To Net: NetName=BUTTON_BOMA5 Pin=K60-114
+Added Net: Name=BUTTON_BOMA5
+Added Pin To Net: NetName=BUTTON_BOMA6 Pin=boma1-11
+Added Pin To Net: NetName=BUTTON_BOMA6 Pin=K60-116
+Added Net: Name=BUTTON_BOMA6
+Added Pin To Net: NetName=BUTTON_BOMA7 Pin=boma1-13
+Added Pin To Net: NetName=BUTTON_BOMA7 Pin=K60-113
+Added Net: Name=BUTTON_BOMA7
+Added Pin To Net: NetName=BUTTON_BOMA8 Pin=boma1-15
+Added Pin To Net: NetName=BUTTON_BOMA8 Pin=K60-214
+Added Net: Name=BUTTON_BOMA8
+Added Pin To Net: NetName=BUTTON_QINGCHU1 Pin=button1-1
+Added Pin To Net: NetName=BUTTON_QINGCHU1 Pin=K60-215
+Added Net: Name=BUTTON_QINGCHU1
+Added Pin To Net: NetName=BUTTON_QINGCHU2 Pin=button2-1
+Added Pin To Net: NetName=BUTTON_QINGCHU2 Pin=K60-216
+Added Net: Name=BUTTON_QINGCHU2
+Added Pin To Net: NetName=BUTTON_QINGCHU3 Pin=button3-1
+Added Pin To Net: NetName=BUTTON_QINGCHU3 Pin=K60-218
+Added Net: Name=BUTTON_QINGCHU3
+Added Pin To Net: NetName=BUTTON_QINGCHU4 Pin=button4-1
+Added Pin To Net: NetName=BUTTON_QINGCHU4 Pin=K60-217
+Added Net: Name=BUTTON_QINGCHU4
+Added Pin To Net: NetName=BUTTON_QINGCHU5 Pin=button5-1
+Added Pin To Net: NetName=BUTTON_QINGCHU5 Pin=K60-219
+Added Net: Name=BUTTON_QINGCHU5
+Added Pin To Net: NetName=BUTTON_QINGCHU6 Pin=button6-1
+Added Pin To Net: NetName=BUTTON_QINGCHU6 Pin=K60-221
+Added Net: Name=BUTTON_QINGCHU6
+Added Pin To Net: NetName=FTM1_QDPHA Pin=K60-306
+Added Pin To Net: NetName=FTM1_QDPHA Pin=omron_right-3
+Added Pin To Net: NetName=FTM1_QDPHA Pin=paizu3-1
+Added Net: Name=FTM1_QDPHA
+Added Pin To Net: NetName=FTM1_QDPHB Pin=K60-305
+Added Pin To Net: NetName=FTM1_QDPHB Pin=omron_right-4
+Added Pin To Net: NetName=FTM1_QDPHB Pin=paizu3-3
+Added Net: Name=FTM1_QDPHB
+Added Pin To Net: NetName=FTM2_QDPHA Pin=K60-308
+Added Pin To Net: NetName=FTM2_QDPHA Pin=omron_left-3
+Added Pin To Net: NetName=FTM2_QDPHA Pin=paizu3-5
+Added Net: Name=FTM2_QDPHA
+Added Pin To Net: NetName=FTM2_QDPHB Pin=K60-307
+Added Pin To Net: NetName=FTM2_QDPHB Pin=omron_left-4
+Added Pin To Net: NetName=FTM2_QDPHB Pin=paizu3-7
+Added Net: Name=FTM2_QDPHB
+Added Pin To Net: NetName=GND Pin=bluetooth-2
+Added Pin To Net: NetName=GND Pin=boma1-2
+Added Pin To Net: NetName=GND Pin=boma1-4
+Added Pin To Net: NetName=GND Pin=boma1-6
+Added Pin To Net: NetName=GND Pin=boma1-8
+Added Pin To Net: NetName=GND Pin=boma1-10
+Added Pin To Net: NetName=GND Pin=boma1-12
+Added Pin To Net: NetName=GND Pin=boma1-14
+Added Pin To Net: NetName=GND Pin=boma1-16
+Added Pin To Net: NetName=GND Pin=BSS306N-1
+Added Pin To Net: NetName=GND Pin=BSS306N-3
+Added Pin To Net: NetName=GND Pin=button1-2
+Added Pin To Net: NetName=GND Pin=button2-2
+Added Pin To Net: NetName=GND Pin=button3-2
+Added Pin To Net: NetName=GND Pin=button4-2
+Added Pin To Net: NetName=GND Pin=button5-2
+Added Pin To Net: NetName=GND Pin=button6-2
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=GND Pin=C4-2
+Added Pin To Net: NetName=GND Pin=C5-1
+Added Pin To Net: NetName=GND Pin=C6-1
+Added Pin To Net: NetName=GND Pin=C7-1
+Added Pin To Net: NetName=GND Pin=C16-1
+Added Pin To Net: NetName=GND Pin=C18-1
+Added Pin To Net: NetName=GND Pin=C31-1
+Added Pin To Net: NetName=GND Pin=C32-1
+Added Pin To Net: NetName=GND Pin=CA1-1
+Added Pin To Net: NetName=GND Pin=CB1-1
+Added Pin To Net: NetName=GND Pin=CB2-2
+Added Pin To Net: NetName=GND Pin=CC3-1
+Added Pin To Net: NetName=GND Pin=CD1-1
+Added Pin To Net: NetName=GND Pin=CD2-2
+Added Pin To Net: NetName=GND Pin=CE1-1
+Added Pin To Net: NetName=GND Pin=CF1-1
+Added Pin To Net: NetName=GND Pin=CF2-2
+Added Pin To Net: NetName=GND Pin=CON1-1
+Added Pin To Net: NetName=GND Pin=dianci-1
+Added Pin To Net: NetName=GND Pin=interface_sdcard-1
+Added Pin To Net: NetName=GND Pin=K60-123
+Added Pin To Net: NetName=GND Pin=L6932-1-5
+Added Pin To Net: NetName=GND Pin=L6932-1-6
+Added Pin To Net: NetName=GND Pin=L6932-1-7
+Added Pin To Net: NetName=GND Pin=L6932-1-8
+Added Pin To Net: NetName=GND Pin=L6932-2-5
+Added Pin To Net: NetName=GND Pin=L6932-2-6
+Added Pin To Net: NetName=GND Pin=L6932-2-7
+Added Pin To Net: NetName=GND Pin=L6932-2-8
+Added Pin To Net: NetName=GND Pin=LM1117-5-1
+Added Pin To Net: NetName=GND Pin=oled-1
+Added Pin To Net: NetName=GND Pin=omron_left-1
+Added Pin To Net: NetName=GND Pin=omron_right-1
+Added Pin To Net: NetName=GND Pin=paizu2-2
+Added Pin To Net: NetName=GND Pin=paizu2-4
+Added Pin To Net: NetName=GND Pin=paizu2-6
+Added Pin To Net: NetName=GND Pin=paizu2-8
+Added Pin To Net: NetName=GND Pin=POWER-1
+Added Pin To Net: NetName=GND Pin=POWER-2
+Added Pin To Net: NetName=GND Pin=pwm-1
+Added Pin To Net: NetName=GND Pin=R1-1
+Added Pin To Net: NetName=GND Pin=R2-1
+Added Pin To Net: NetName=GND Pin=R10k_7-1
+Added Pin To Net: NetName=GND Pin=R10k_8-1
+Added Pin To Net: NetName=GND Pin=R60-1
+Added Pin To Net: NetName=GND Pin=RA2-1
+Added Pin To Net: NetName=GND Pin=RB2-1
+Added Pin To Net: NetName=GND Pin=RC2-1
+Added Pin To Net: NetName=GND Pin=RD2-1
+Added Pin To Net: NetName=GND Pin=RE2-1
+Added Pin To Net: NetName=GND Pin=RF2-1
+Added Pin To Net: NetName=GND Pin=sdcard-6
+Added Pin To Net: NetName=GND Pin=sdcard-10
+Added Pin To Net: NetName=GND Pin=sdcard-11
+Added Pin To Net: NetName=GND Pin=sdcard-12
+Added Pin To Net: NetName=GND Pin=sdcard-13
+Added Pin To Net: NetName=GND Pin=TLV2462_1-4
+Added Pin To Net: NetName=GND Pin=TLV2462_2-4
+Added Pin To Net: NetName=GND Pin=TLV2462_3-4
+Added Pin To Net: NetName=GND Pin=tuoluoyi-4
+Added Net: Name=GND
+Added Pin To Net: NetName=NetBSS306N_2 Pin=BSS306N-2
+Added Pin To Net: NetName=NetBSS306N_2 Pin=C4-1
+Added Pin To Net: NetName=NetBSS306N_2 Pin=C5-2
+Added Pin To Net: NetName=NetBSS306N_2 Pin=C16-2
+Added Pin To Net: NetName=NetBSS306N_2 Pin=CON1-2
+Added Pin To Net: NetName=NetBSS306N_2 Pin=L6932-1-1
+Added Pin To Net: NetName=NetBSS306N_2 Pin=L6932-1-2
+Added Pin To Net: NetName=NetBSS306N_2 Pin=L6932-2-1
+Added Pin To Net: NetName=NetBSS306N_2 Pin=L6932-2-2
+Added Pin To Net: NetName=NetBSS306N_2 Pin=LM1117-5-3
+Added Net: Name=NetBSS306N_2
+Added Pin To Net: NetName=NetC2_1 Pin=C2-1
+Added Pin To Net: NetName=NetC2_1 Pin=L6932-1-3
+Added Pin To Net: NetName=NetC2_1 Pin=R10k_7-2
+Added Pin To Net: NetName=NetC2_1 Pin=R15-1
+Added Net: Name=NetC2_1
+Added Pin To Net: NetName=NetC6_1 Pin=C6-2
+Added Pin To Net: NetName=NetC6_1 Pin=C7-2
+Added Pin To Net: NetName=NetC6_1 Pin=F1-1
+Added Pin To Net: NetName=NetC6_1 Pin=LM1117-5-2
+Added Net: Name=NetC6_1
+Added Pin To Net: NetName=NetC30_1 Pin=C30-1
+Added Pin To Net: NetName=NetC30_1 Pin=L6932-2-3
+Added Pin To Net: NetName=NetC30_1 Pin=R10k_8-2
+Added Pin To Net: NetName=NetC30_1 Pin=R61-1
+Added Net: Name=NetC30_1
+Added Pin To Net: NetName=NetdianciR1_1 Pin=dianciR1-1
+Added Pin To Net: NetName=NetdianciR1_1 Pin=dianciR1-3
+Added Pin To Net: NetName=NetdianciR1_1 Pin=RA4-1
+Added Pin To Net: NetName=NetdianciR1_1 Pin=TLV2462_1-1
+Added Net: Name=NetdianciR1_1
+Added Pin To Net: NetName=NetdianciR1_2 Pin=dianciR1-2
+Added Pin To Net: NetName=NetdianciR1_2 Pin=RA3-2
+Added Net: Name=NetdianciR1_2
+Added Pin To Net: NetName=NetdianciR2_1 Pin=dianciR2-1
+Added Pin To Net: NetName=NetdianciR2_1 Pin=dianciR2-3
+Added Pin To Net: NetName=NetdianciR2_1 Pin=RB4-1
+Added Pin To Net: NetName=NetdianciR2_1 Pin=TLV2462_1-7
+Added Net: Name=NetdianciR2_1
+Added Pin To Net: NetName=NetdianciR2_2 Pin=dianciR2-2
+Added Pin To Net: NetName=NetdianciR2_2 Pin=RB3-2
+Added Net: Name=NetdianciR2_2
+Added Pin To Net: NetName=NetdianciR3_1 Pin=dianciR3-1
+Added Pin To Net: NetName=NetdianciR3_1 Pin=dianciR3-3
+Added Pin To Net: NetName=NetdianciR3_1 Pin=RC4-1
+Added Pin To Net: NetName=NetdianciR3_1 Pin=TLV2462_2-1
+Added Net: Name=NetdianciR3_1
+Added Pin To Net: NetName=NetdianciR3_2 Pin=dianciR3-2
+Added Pin To Net: NetName=NetdianciR3_2 Pin=RC3-2
+Added Net: Name=NetdianciR3_2
+Added Pin To Net: NetName=NetdianciR4_1 Pin=dianciR4-1
+Added Pin To Net: NetName=NetdianciR4_1 Pin=dianciR4-3
+Added Pin To Net: NetName=NetdianciR4_1 Pin=RD4-1
+Added Pin To Net: NetName=NetdianciR4_1 Pin=TLV2462_2-7
+Added Net: Name=NetdianciR4_1
+Added Pin To Net: NetName=NetdianciR4_2 Pin=dianciR4-2
+Added Pin To Net: NetName=NetdianciR4_2 Pin=RD3-2
+Added Net: Name=NetdianciR4_2
+Added Pin To Net: NetName=NetdianciR5_1 Pin=dianciR5-1
+Added Pin To Net: NetName=NetdianciR5_1 Pin=dianciR5-3
+Added Pin To Net: NetName=NetdianciR5_1 Pin=RE4-1
+Added Pin To Net: NetName=NetdianciR5_1 Pin=TLV2462_3-1
+Added Net: Name=NetdianciR5_1
+Added Pin To Net: NetName=NetdianciR5_2 Pin=dianciR5-2
+Added Pin To Net: NetName=NetdianciR5_2 Pin=RE3-2
+Added Net: Name=NetdianciR5_2
+Added Pin To Net: NetName=NetdianciR6_1 Pin=dianciR6-1
+Added Pin To Net: NetName=NetdianciR6_1 Pin=dianciR6-3
+Added Pin To Net: NetName=NetdianciR6_1 Pin=RF4-1
+Added Pin To Net: NetName=NetdianciR6_1 Pin=TLV2462_3-7
+Added Net: Name=NetdianciR6_1
+Added Pin To Net: NetName=NetdianciR6_2 Pin=dianciR6-2
+Added Pin To Net: NetName=NetdianciR6_2 Pin=RF3-2
+Added Net: Name=NetdianciR6_2
+Added Pin To Net: NetName=NetLED_3.3_1_2 Pin=LED_3.3_1-2
+Added Pin To Net: NetName=NetLED_3.3_1_2 Pin=R60-2
+Added Net: Name=NetLED_3.3_1_2
+Added Pin To Net: NetName=NetLED_3.3_2_2 Pin=LED_3.3_2-2
+Added Pin To Net: NetName=NetLED_3.3_2_2 Pin=R1-2
+Added Net: Name=NetLED_3.3_2_2
+Added Pin To Net: NetName=NetLED_5_2 Pin=LED_5-2
+Added Pin To Net: NetName=NetLED_5_2 Pin=R2-2
+Added Net: Name=NetLED_5_2
+Added Pin To Net: NetName=NetRA1_2 Pin=RA1-2
+Added Pin To Net: NetName=NetRA1_2 Pin=TLV2462_1-3
+Added Net: Name=NetRA1_2
+Added Pin To Net: NetName=NetRA2_2 Pin=RA2-2
+Added Pin To Net: NetName=NetRA2_2 Pin=RA3-1
+Added Pin To Net: NetName=NetRA2_2 Pin=TLV2462_1-2
+Added Net: Name=NetRA2_2
+Added Pin To Net: NetName=NetRB1_2 Pin=RB1-2
+Added Pin To Net: NetName=NetRB1_2 Pin=TLV2462_1-5
+Added Net: Name=NetRB1_2
+Added Pin To Net: NetName=NetRB2_2 Pin=RB2-2
+Added Pin To Net: NetName=NetRB2_2 Pin=RB3-1
+Added Pin To Net: NetName=NetRB2_2 Pin=TLV2462_1-6
+Added Net: Name=NetRB2_2
+Added Pin To Net: NetName=NetRC1_2 Pin=RC1-2
+Added Pin To Net: NetName=NetRC1_2 Pin=TLV2462_2-3
+Added Net: Name=NetRC1_2
+Added Pin To Net: NetName=NetRC2_2 Pin=RC2-2
+Added Pin To Net: NetName=NetRC2_2 Pin=RC3-1
+Added Pin To Net: NetName=NetRC2_2 Pin=TLV2462_2-2
+Added Net: Name=NetRC2_2
+Added Pin To Net: NetName=NetRD1_2 Pin=RD1-2
+Added Pin To Net: NetName=NetRD1_2 Pin=TLV2462_2-5
+Added Net: Name=NetRD1_2
+Added Pin To Net: NetName=NetRD2_2 Pin=RD2-2
+Added Pin To Net: NetName=NetRD2_2 Pin=RD3-1
+Added Pin To Net: NetName=NetRD2_2 Pin=TLV2462_2-6
+Added Net: Name=NetRD2_2
+Added Pin To Net: NetName=NetRE1_2 Pin=RE1-2
+Added Pin To Net: NetName=NetRE1_2 Pin=TLV2462_3-3
+Added Net: Name=NetRE1_2
+Added Pin To Net: NetName=NetRE2_2 Pin=RE2-2
+Added Pin To Net: NetName=NetRE2_2 Pin=RE3-1
+Added Pin To Net: NetName=NetRE2_2 Pin=TLV2462_3-2
+Added Net: Name=NetRE2_2
+Added Pin To Net: NetName=NetRF1_2 Pin=RF1-2
+Added Pin To Net: NetName=NetRF1_2 Pin=TLV2462_3-5
+Added Net: Name=NetRF1_2
+Added Pin To Net: NetName=NetRF2_2 Pin=RF2-2
+Added Pin To Net: NetName=NetRF2_2 Pin=RF3-1
+Added Pin To Net: NetName=NetRF2_2 Pin=TLV2462_3-6
+Added Net: Name=NetRF2_2
+Added Pin To Net: NetName=OLED_CS Pin=K60-104
+Added Pin To Net: NetName=OLED_CS Pin=oled-7
+Added Net: Name=OLED_CS
+Added Pin To Net: NetName=OLED_D0 Pin=K60-401
+Added Pin To Net: NetName=OLED_D0 Pin=oled-3
+Added Net: Name=OLED_D0
+Added Pin To Net: NetName=OLED_D1 Pin=K60-101
+Added Pin To Net: NetName=OLED_D1 Pin=oled-4
+Added Net: Name=OLED_D1
+Added Pin To Net: NetName=OLED_DS Pin=K60-103
+Added Pin To Net: NetName=OLED_DS Pin=oled-6
+Added Net: Name=OLED_DS
+Added Pin To Net: NetName=OLED_RST Pin=K60-102
+Added Pin To Net: NetName=OLED_RST Pin=oled-5
+Added Net: Name=OLED_RST
+Added Pin To Net: NetName=PWM_LEFT1 Pin=K60-404
+Added Pin To Net: NetName=PWM_LEFT1 Pin=paizu2-1
+Added Pin To Net: NetName=PWM_LEFT1 Pin=pwm-5
+Added Net: Name=PWM_LEFT1
+Added Pin To Net: NetName=PWM_LEFT2 Pin=K60-402
+Added Pin To Net: NetName=PWM_LEFT2 Pin=paizu2-3
+Added Pin To Net: NetName=PWM_LEFT2 Pin=pwm-4
+Added Net: Name=PWM_LEFT2
+Added Pin To Net: NetName=PWM_RIGHT1 Pin=K60-120
+Added Pin To Net: NetName=PWM_RIGHT1 Pin=paizu2-5
+Added Pin To Net: NetName=PWM_RIGHT1 Pin=pwm-3
+Added Net: Name=PWM_RIGHT1
+Added Pin To Net: NetName=PWM_RIGHT2 Pin=K60-121
+Added Pin To Net: NetName=PWM_RIGHT2 Pin=paizu2-7
+Added Pin To Net: NetName=PWM_RIGHT2 Pin=pwm-2
+Added Net: Name=PWM_RIGHT2
+Added Pin To Net: NetName=SDCARD_CLK Pin=interface_sdcard-3
+Added Pin To Net: NetName=SDCARD_CLK Pin=K60-106
+Added Pin To Net: NetName=SDCARD_CLK Pin=paizu1-3
+Added Pin To Net: NetName=SDCARD_CLK Pin=sdcard-5
+Added Net: Name=SDCARD_CLK
+Added Pin To Net: NetName=SDCARD_CS Pin=interface_sdcard-2
+Added Pin To Net: NetName=SDCARD_CS Pin=K60-105
+Added Pin To Net: NetName=SDCARD_CS Pin=paizu1-1
+Added Pin To Net: NetName=SDCARD_CS Pin=sdcard-2
+Added Net: Name=SDCARD_CS
+Added Pin To Net: NetName=SDCARD_MISO Pin=interface_sdcard-5
+Added Pin To Net: NetName=SDCARD_MISO Pin=K60-108
+Added Pin To Net: NetName=SDCARD_MISO Pin=paizu1-7
+Added Pin To Net: NetName=SDCARD_MISO Pin=sdcard-7
+Added Net: Name=SDCARD_MISO
+Added Pin To Net: NetName=SDCARD_MOSI Pin=interface_sdcard-4
+Added Pin To Net: NetName=SDCARD_MOSI Pin=K60-107
+Added Pin To Net: NetName=SDCARD_MOSI Pin=paizu1-5
+Added Pin To Net: NetName=SDCARD_MOSI Pin=sdcard-3
+Added Net: Name=SDCARD_MOSI
+Added Pin To Net: NetName=SIGNAL_IN_L1 Pin=dianci-2
+Added Pin To Net: NetName=SIGNAL_IN_L1 Pin=RA1-1
+Added Net: Name=SIGNAL_IN_L1
+Added Pin To Net: NetName=SIGNAL_IN_L2 Pin=dianci-3
+Added Pin To Net: NetName=SIGNAL_IN_L2 Pin=RB1-1
+Added Net: Name=SIGNAL_IN_L2
+Added Pin To Net: NetName=SIGNAL_IN_L3 Pin=dianci-4
+Added Pin To Net: NetName=SIGNAL_IN_L3 Pin=RC1-1
+Added Net: Name=SIGNAL_IN_L3
+Added Pin To Net: NetName=SIGNAL_IN_L4 Pin=dianci-5
+Added Pin To Net: NetName=SIGNAL_IN_L4 Pin=RD1-1
+Added Net: Name=SIGNAL_IN_L4
+Added Pin To Net: NetName=SIGNAL_IN_L5 Pin=dianci-6
+Added Pin To Net: NetName=SIGNAL_IN_L5 Pin=RE1-1
+Added Net: Name=SIGNAL_IN_L5
+Added Pin To Net: NetName=SIGNAL_IN_L6 Pin=dianci-7
+Added Pin To Net: NetName=SIGNAL_IN_L6 Pin=RF1-1
+Added Net: Name=SIGNAL_IN_L6
+Added Pin To Net: NetName=SIGNAL_OUT_L1 Pin=CA1-2
+Added Pin To Net: NetName=SIGNAL_OUT_L1 Pin=K60-425
+Added Pin To Net: NetName=SIGNAL_OUT_L1 Pin=RA4-2
+Added Net: Name=SIGNAL_OUT_L1
+Added Pin To Net: NetName=SIGNAL_OUT_L2 Pin=CB1-2
+Added Pin To Net: NetName=SIGNAL_OUT_L2 Pin=K60-420
+Added Pin To Net: NetName=SIGNAL_OUT_L2 Pin=RB4-2
+Added Net: Name=SIGNAL_OUT_L2
+Added Pin To Net: NetName=SIGNAL_OUT_L3 Pin=CC3-2
+Added Pin To Net: NetName=SIGNAL_OUT_L3 Pin=K60-421
+Added Pin To Net: NetName=SIGNAL_OUT_L3 Pin=RC4-2
+Added Net: Name=SIGNAL_OUT_L3
+Added Pin To Net: NetName=SIGNAL_OUT_L4 Pin=CD1-2
+Added Pin To Net: NetName=SIGNAL_OUT_L4 Pin=K60-419
+Added Pin To Net: NetName=SIGNAL_OUT_L4 Pin=RD4-2
+Added Net: Name=SIGNAL_OUT_L4
+Added Pin To Net: NetName=SIGNAL_OUT_L5 Pin=CE1-2
+Added Pin To Net: NetName=SIGNAL_OUT_L5 Pin=K60-418
+Added Pin To Net: NetName=SIGNAL_OUT_L5 Pin=RE4-2
+Added Net: Name=SIGNAL_OUT_L5
+Added Pin To Net: NetName=SIGNAL_OUT_L6 Pin=CF1-2
+Added Pin To Net: NetName=SIGNAL_OUT_L6 Pin=K60-414
+Added Pin To Net: NetName=SIGNAL_OUT_L6 Pin=RF4-2
+Added Net: Name=SIGNAL_OUT_L6
+Added Pin To Net: NetName=UART_RX Pin=bluetooth-3
+Added Pin To Net: NetName=UART_RX Pin=K60-303
+Added Net: Name=UART_RX
+Added Pin To Net: NetName=UART_TX Pin=bluetooth-4
+Added Pin To Net: NetName=UART_TX Pin=K60-304
+Added Net: Name=UART_TX
+Added Pin To Net: NetName=XOUT Pin=K60-210
+Added Pin To Net: NetName=XOUT Pin=tuoluoyi-7
+Added Net: Name=XOUT
+Added Pin To Net: NetName=YOUT Pin=K60-211
+Added Pin To Net: NetName=YOUT Pin=tuoluoyi-6
+Added Net: Name=YOUT
+Added Pin To Net: NetName=ZOUT Pin=K60-212
+Added Pin To Net: NetName=ZOUT Pin=tuoluoyi-5
+Added Net: Name=ZOUT
+Added Class: Name=control
+Added Room: Name=control

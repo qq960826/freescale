@@ -1,0 +1,15 @@
+Change Component Footprint: Designator=CF1 Old Footprint=6-0805_M New Footprint=0805
+Change Component Footprint: Designator=R10k_7 Old Footprint=6-0805_M New Footprint=0805
+Added Component: Designator=sdcard(SDCARD-M)
+Added Pin To Net: NetName=SDCARD_CS Pin=sdcard-2
+Added Pin To Net: NetName=SDCARD_MOSI Pin=sdcard-3
+Added Pin To Net: NetName=3.3V Pin=sdcard-4
+Added Pin To Net: NetName=SDCARD_CLK Pin=sdcard-5
+Added Pin To Net: NetName=GND Pin=sdcard-6
+Added Pin To Net: NetName=SDCARD_MISO Pin=sdcard-7
+Added Pin To Net: NetName=GND Pin=sdcard-10
+Added Pin To Net: NetName=GND Pin=sdcard-11
+Added Pin To Net: NetName=GND Pin=sdcard-12
+Added Pin To Net: NetName=GND Pin=sdcard-13
+Added Member To Class: ClassName=control Member=Component sdcard
+Added Room: Name=control

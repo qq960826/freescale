@@ -1,0 +1,165 @@
+Board Information Report
+Filename     : Z:\Users\wzq\ÏîÄ¿\freescale\circuit\PCB1.PcbDoc
+Date         : 16/4/22
+Time         : ÏÂÎç 10:04:33
+Time Elapsed : 00:00:00
+
+General
+    Board Size, 152.4mmx101.6mm
+    Components on board, 89
+count : 2
+
+Routing Information
+    Routing completion, 100.00%
+    Connections, 238
+    Connections routed, 238
+    Connections remaining, 0
+count : 4
+
+Layer, Arcs, Pads, Vias, Tracks, Texts, Fills, Regions, ComponentBodies
+    Top Layer, 0, 163, 0, 414, 0, 0, 4, 0
+    Bottom Layer, 0, 24, 0, 168, 0, 0, 1, 0
+    Mechanical 1, 1, 0, 0, 0, 0, 0, 0, 0
+    Mechanical 13, 5, 0, 0, 28, 0, 0, 0, 7
+    Mechanical 15, 0, 0, 0, 42, 0, 0, 0, 0
+    Top Overlay, 14, 0, 0, 672, 188, 0, 0, 0
+    Bottom Overlay, 0, 0, 0, 12, 7, 0, 0, 0
+    Top Paste, 0, 0, 0, 0, 0, 0, 0, 0
+    Bottom Paste, 0, 0, 0, 0, 0, 0, 0, 0
+    Top Solder, 0, 0, 0, 0, 0, 0, 0, 0
+    Bottom Solder, 0, 0, 0, 0, 0, 0, 0, 0
+    Drill Guide, 0, 0, 0, 0, 0, 0, 0, 0
+    Keep-Out Layer, 0, 0, 0, 0, 0, 0, 0, 0
+    Drill Drawing, 0, 0, 0, 0, 0, 0, 0, 0
+    Multi-Layer, 0, 213, 36, 0, 0, 0, 0, 0
+count : 15
+
+Layer Pairs, Vias
+    Top Layer - Bottom Layer, 36
+count : 1
+
+Non-Plated Hole Size, Pads, Vias
+count : 0
+
+Plated Hole Size, Pads, Vias
+    0mm, 187, 0
+    0.7112mm, 0, 36
+    0.889mm, 162, 0
+    0.9mm, 49, 0
+    1mm, 2, 0
+count : 5
+
+Non-Plated Slot Size / Length, Pads
+count : 0
+
+Plated Slot Size / Length, Pads
+count : 0
+
+Non-Plated Square Hole Size, Pads
+count : 0
+
+Plated Square Hole Size, Pads
+count : 0
+
+Top Layer Annular Ring Size, Count
+    0.5588mm, 36
+    0.575mm, 2
+    0.6mm, 49
+    0.6858mm, 128
+    0.686mm, 34
+count : 5
+
+Mid Layer Annular Ring Size, Count
+    0.5588mm, 36
+    0.575mm, 2
+    0.6mm, 49
+    0.6858mm, 128
+    0.686mm, 34
+count : 5
+
+Bottom Layer Annular Ring Size, Count
+    0.5588mm, 36
+    0.575mm, 2
+    0.6mm, 49
+    0.6858mm, 128
+    0.686mm, 34
+count : 5
+
+Pad Solder Mask, Count
+    0.1016mm, 400
+count : 1
+
+Pad Paste Mask, Count
+    0mm, 400
+count : 1
+
+Pad Pwr/Gnd Expansion, Count
+    0.508mm, 400
+count : 1
+
+Pad Relief Conductor Width, Count
+    0.254mm, 400
+count : 1
+
+Pad Relief Air Gap, Count
+    0.254mm, 400
+count : 1
+
+Pad Relief Entries, Count
+    4, 400
+count : 1
+
+Via Solder Mask, Count
+    0.1016mm, 36
+count : 1
+
+Via Pwr/Gnd Expansion, Count
+    0.508mm, 36
+count : 1
+
+Track Width, Count
+    0.05mm, 20
+    0.1mm, 50
+    0.2mm, 533
+    0.2032mm, 102
+    0.254mm, 522
+    0.4572mm, 109
+count : 6
+
+Arc Line Width, Count
+    0.02mm, 1
+    0.1mm, 5
+    0.25mm, 8
+    0.254mm, 1
+    0.4mm, 5
+count : 5
+
+Arc Radius, Count
+    0.125mm, 7
+    0.2mm, 5
+    0.5mm, 5
+    1.27mm, 1
+    5.25mm, 2
+count : 5
+
+Arc Degrees, Count
+    360, 20
+count : 1
+
+Text Height, Count
+    0.889mm, 2
+    1.016mm, 192
+    3mm, 1
+count : 3
+
+Text Width, Count
+    0.254mm, 195
+count : 1
+
+Net Track Width, Count
+    1328.3493mm, 84
+count : 1
+
+Net Via Size, Count
+    1.27mm, 84
+count : 1

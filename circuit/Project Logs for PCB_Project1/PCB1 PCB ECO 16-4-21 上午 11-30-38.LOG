@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=3.3V Pin=R50-2
+Removed Pin From Net: NetName=GND Pin=reset-1
+Removed Pin From Net: NetName=GND Pin=wifi-1
+Removed Pin From Net: NetName=3.3V Pin=wifi-2
+Removed Pin From Net: NetName=UART_RX Pin=wifi-3
+Removed Pin From Net: NetName=UART_TX Pin=wifi-4
+Removed Member From Class: ClassName=control Member=R50
+Removed Member From Class: ClassName=control Member=reset
+Removed Member From Class: ClassName=control Member=wifi
+Added Component: Designator=bluetooth(MHDR1X4)
+Added Pin To Net: NetName=3.3V Pin=bluetooth-1
+Added Pin To Net: NetName=GND Pin=bluetooth-2
+Added Member To Class: ClassName=control Member=Component bluetooth

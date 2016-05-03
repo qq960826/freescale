@@ -1,0 +1,2 @@
+Remove Pin=bluetooth-3 From Net=UART_RX
+Remove Pin=bluetooth-4 From Net=UART_TX
