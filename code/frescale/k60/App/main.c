@@ -65,15 +65,34 @@ long long electromagnet_L6;
 
 
 //开始计算变量声明
+
+float angle_offset=62.0;
+
 unsigned long long system_time_ms=0;
 float angle;
-
+void print_fraction( float aaaa);
 
 void main(){
 car_init();
 while(1){
-  sensor_electromagnet_read();
-  printf("%lld\n",electromagnet_L1-electromagnet_L2);
+    sensor_accelerator_read();
+  sensor_accelerator_calculate();
+  angle_control(0);
+  
+  float ang=angle_offset+angle;
+  //char buffer [100] ;
+  //sprintf(buffer,"%d\n",(int)omron_encoder_right_now);
+  //angle_control(0);
+ //motor_right_pid(1 );
+  //pwm_left_write(100);
+ //motor_left_pid(10);
+  //printf(buffer);
+  print_fraction(angle);
+  //FTM_PWM_Duty(FTM0,pin_PWM_left1,1000);
+  //FTM_PWM_Duty(FTM0,pin_PWM_left2,1000);
+ ///pwm_right_write(300);
+  //sensor_electromagnet_read();
+ // printf("%lld\n",motor_right_pwm1);
 
 
 }
@@ -81,7 +100,19 @@ while(1){
 
 }
 
+void print_fraction(float aaaa){
+   //char buffer [100] ;
+  int temp=(int)aaaa;
+  printf("%d.",(int)temp);
+  aaaa-=temp;
+  aaaa=fabs(aaaa);
+  temp=aaaa*10;
+  printf("%d\n",(int)temp);
+  
+  //sprintf(buffer,"%d\n",(int)angle);
+  
 
+}
 void  main1(void)
 {
   
@@ -104,7 +135,7 @@ void  main1(void)
   sprintf(buffer,"%d",(int)angle);
   //OLED_P8x16Str(5,0,"    ");
 
-  OLED_P8x16Str(6,0,buffer);
+  //OLED_P8x16Str(6,0,buffer);
  //motor_left_pid(1);
  //motor_right_pid(0);
   angle_control(20);

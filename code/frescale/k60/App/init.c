@@ -16,6 +16,7 @@ void pit_hander_time_recoder(){
   PIT_Flag_Clear(PIT0);
   system_time_ms++;
 }
+
 void pit_hander_omron_encoder(){
   if(omron_encoder_right_now>1<<29) omron_encoder_right_now=0;//·ÀÖ¹Òç³ö
   omron_encoder_right_last=omron_encoder_right_now;

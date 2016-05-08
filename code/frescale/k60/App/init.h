@@ -33,7 +33,7 @@
 #define pin_PWM_right1 FTM_CH4//D4£¬FTM0_CH4
 #define pin_PWM_right2 FTM_CH5//D5£¬FTM0_CH5
 #define pin_PWM_left1 FTM_CH1//C2£¬FTM0_CH1
-#define pin_PWM_left2 FTM_CH2//C3£¬FTM0_CH2
+#define pin_PWM_left2 FTM_CH0//C3£¬FTM0_CH2
 
 //OLED
 #define pin_OLED_D0  PTC4_OUT//PTC4

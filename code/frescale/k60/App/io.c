@@ -44,7 +44,7 @@ void sensor_electromagnet_read(){
 
 }
 void pwm_right_write(int pwm){
-  
+  pwm=-pwm;
   if(pwm>=1000){ 
     motor_right_pwm1=0;motor_right_pwm2=1000;
   }
@@ -63,7 +63,7 @@ void pwm_right_write(int pwm){
 }
 
 void pwm_left_write(int pwm){
-  
+  pwm=-pwm;
   if(pwm>=1000){ 
     motor_left_pwm1=0;motor_left_pwm2=1000;
   }
