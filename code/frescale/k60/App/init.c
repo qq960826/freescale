@@ -2,14 +2,17 @@
 #include "port_cfg.h"
 #include "include.h"
 #include "init.h"
-
-
-
+#include "io.h"
+extern int STOP;
 extern long long omron_encoder_left_now;
 extern long long omron_encoder_left_last;
 extern long long omron_encoder_right_now;
 extern long long omron_encoder_right_last;
-
+extern float angle;
+extern long long time_now_speed;
+extern long long time_last_speed;
+extern int Speed_R;
+extern int Speed_L;
 //#define 
 extern  unsigned long long system_time_ms;
 void pit_hander_time_recoder(){
@@ -19,16 +22,44 @@ void pit_hander_time_recoder(){
 
 void pit_hander_omron_encoder(){
   if(omron_encoder_right_now>1<<29) omron_encoder_right_now=0;//防止溢出
+  //omron_encoder_right_now-=omron_encoder_right_last;
+  //omron_encoder_left_now-=omron_encoder_left_last;
+  
+  
+  
   omron_encoder_right_last=omron_encoder_right_now;
   omron_encoder_right_now-=FTM_QUAD_get(FTM1);
   omron_encoder_left_last=omron_encoder_left_now;
   omron_encoder_left_now+=FTM_QUAD_get(FTM2);
   
-FTM_QUAD_clean(FTM1);
-FTM_QUAD_clean(FTM2);
+  FTM_QUAD_clean(FTM1);
+  FTM_QUAD_clean(FTM2);
   PIT_Flag_Clear(PIT1);
+if(!STOP){
+  motor_left_pid(Speed_L);
+motor_right_pid(Speed_R);}
+else{
+pwm_left_write(0);
+
+pwm_right_write(0);
+}
+//pwm_left_write(1000);
   
-  //printf("%lld\n",omrom_encoder1);
+ 
+
+  //OutData[0] = speed;
+    //OutData[1] =1;
+    //OutData[2] = 3 ;
+    //OutData[3] = 4;
+   // vcan_sendware((uint8_t *)OutData,sizeof(OutData));
+  
+  
+ // motor_right_pid(1);    
+
+  
+  
+  //print_fraction(speed);
+ // printf("%lld\n",(unsigned long long )(time_now_speed-time_last_speed));
 
 }
 unsigned long long mills(){
@@ -82,7 +113,7 @@ void car_init(){
   enable_irq(PIT0_IRQn);
   
   //计时器二，计算速度
-  pit_init_us(PIT1,2000);
+  pit_init_ms(PIT1,10);
   set_vector_handler(PIT1_VECTORn,pit_hander_omron_encoder);
   enable_irq(PIT1_IRQn);
   

@@ -1,18 +1,22 @@
 #include "math.h"
 #include "io.h"
-#define kp_motor_left 15
-#define ki_motor_left 4
-#define kd_motor_left 8
+#include "common.h"
+#define kp_motor_left 4
+#define ki_motor_left 5
+//#define kd_motor_left 2
+#define kd_motor_left 0
+
+#define kp_motor_right 4
+#define ki_motor_right 5
+#define kd_motor_right 0
 
 
-#define kp_motor_right 30
-#define ki_motor_right 4
-#define kd_motor_right 8
+#define kp_angle 4.7
+#define ki_angle 0.2
+#define kd_angle 0
 
 
-#define kp_angle 0.5
-#define ki_angle 0.1
-#define kd_angle 0.25
+
 extern unsigned long long time_last,time_now;
 extern int flag_accelerometer;
 //开始变量声明
@@ -45,6 +49,12 @@ extern long long omron_encoder_left_now;
 extern long long omron_encoder_left_last;
 extern long long omron_encoder_right_now;
 extern long long omron_encoder_right_last;
+
+extern long long time_now_speed;
+extern long long time_last_speed;
+
+extern int Speed_R;
+extern int Speed_L;
 //结束变量声明
 
 
@@ -84,12 +94,23 @@ void sensor_accelerator_calculate(){
   vol_y=((float)accelerometer1_Y/65535)*3.3-1.65;
   vol_z=((float)accelerometer1_Z/65535)*3.3-1.65;
   angle_accZ=(atan(vol_z / sqrt(vol_x * vol_x + vol_y * vol_y)) / 3.1415) * 180;
-  if(flag_accelerometer==0){
+
+
+if(flag_accelerometer==0){
   angle=-angle_accZ;
   flag_accelerometer=1;
   return;
   }
-  angle= (angle +vol_gyro * (delta/1000))*0.95-0.05*angle_accZ;
+  angle= (angle +vol_gyro * (delta/1000))*0.75155-0.24845*angle_accZ;
+  //float  OutData[4];
+
+  //OutData[0] = angle;
+    //OutData[1] = -angle_accZ;
+    //OutData[2] = 3 ;
+    //OutData[3] = 4;
+    //vcan_sendware((uint8_t *)OutData,sizeof(OutData));
+
+
 }
 void motor_right_pid(int motor_right_ideal_speed){
   long error,d_error,dd_error;
@@ -99,15 +120,7 @@ void motor_right_pid(int motor_right_ideal_speed){
   motor_right_pre_error = error;
   motor_right_pre_d_error = d_error;
   motor_right_pk +=kp_motor_right * d_error + ki_motor_right * error + kd_motor_right * dd_error;
-
-  //motor_right_pk = kp_motor * d_error + ki_motor * error ;
   pwm_right_write(motor_right_pk);
-    char buffer [100] ;
-
-  sprintf(buffer,"%d",omron_encoder_right_now-omron_encoder_right_last);
-  //OLED_P8x16Str(5,0,"    ");
-
-  OLED_P8x16Str(6,0,buffer);
 }
 void motor_left_pid(int motor_left_ideal_speed){
   long error,d_error,dd_error;
@@ -117,15 +130,7 @@ void motor_left_pid(int motor_left_ideal_speed){
   motor_left_pre_error = error;
   motor_left_pre_d_error = d_error;
   motor_left_pk +=kp_motor_left * d_error + ki_motor_left * error + kd_motor_left * dd_error;
-
-  //motor_right_pk = kp_motor * d_error + ki_motor * error ;
   pwm_left_write(motor_left_pk);
-  //char buffer [100] ;
-
-  //sprintf(buffer,"%d",omron_encoder_left_now-omron_encoder_left_last);
-  //OLED_P8x16Str(5,0,"    ");
-
- // OLED_P8x16Str(5,0,buffer);
 }
 void angle_control(float angle_ideal){
   float vol_gyro;
@@ -135,22 +140,8 @@ void angle_control(float angle_ideal){
   ang=-ang;
   
   
-  //float Speed_L = (0-ang)*15 - vol_gyro*0.27;//直立PID
-  //motor_left_pid(Speed_L);
-  //pwm_right_write((int)Speed_L);
-  //pwm_left_write((int)Speed_L);
-  //print_fraction(Speed_L);
-  float error=0,d_error=0,dd_error=0;
-  error=angle_ideal-ang;//角度
-  int a=error;
-  d_error=error-angle_pre_error;//角速度
-  dd_error=d_error-angle_pre_d_error;
-  angle_pre_error=error;
-  angle_pre_d_error=d_error;
-  ////angle_pk+=kp_angle*error+kd_motor_left*d_error;
-  angle_pk=-kp_angle*error+kd_angle*vol_gyro;
-  motor_left_pid((int)angle_pk);
-  motor_right_pid((int)angle_pk);
+  Speed_L = (0-ang)*kp_angle-vol_gyro*ki_angle;//直立PID
+  Speed_R = (0-ang)*kp_angle-vol_gyro*ki_angle;
   
       
     

@@ -68,3 +68,5 @@
 #endif
 void car_init();
 void pit_hander_time_recoder();
+unsigned long long mills();
+void SDS_OutPut_Data(float S_Out[]);

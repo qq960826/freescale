@@ -23,7 +23,7 @@
 #include "sdcard.h"
 #include "stdio.h"
 #define BUFF_SIZE   100
-
+int STOP =0;
 
    
 unsigned long long time_last,time_now;
@@ -62,11 +62,16 @@ long long electromagnet_L4;
 long long electromagnet_L5;
 long long electromagnet_L6;
 
-
+//计时时间
+long long time_now_speed=0,time_last_speed=0;
 
 //开始计算变量声明
+//角度偏移
+float angle_offset=54.2;
+//速度
+int Speed_R=0,Speed_L=0;
 
-float angle_offset=62.0;
+
 
 unsigned long long system_time_ms=0;
 float angle;
@@ -77,42 +82,47 @@ car_init();
 while(1){
     sensor_accelerator_read();
   sensor_accelerator_calculate();
-  angle_control(0);
-  
+  sensor_electromagnet_read();
+ angle_control(0);
+  //Speed_R=-20;//
+ // Speed_L=20;
   float ang=angle_offset+angle;
+  int  OutData[4];
+
+  OutData[0] = electromagnet_L3;
+  OutData[1] =  1;
+  OutData[2] = 3 ;
+  OutData[3] = 4;
+  vcan_sendware((uint8_t *)OutData,sizeof(OutData));
+  //angle_control(0);
   //char buffer [100] ;
   //sprintf(buffer,"%d\n",(int)omron_encoder_right_now);
   //angle_control(0);
  //motor_right_pid(1 );
-  //pwm_left_write(100);
- //motor_left_pid(10);
+  //pwm_right_write(-300);
+ //
   //printf(buffer);
-  print_fraction(angle);
+ print_fraction(angle);
   //FTM_PWM_Duty(FTM0,pin_PWM_left1,1000);
   //FTM_PWM_Duty(FTM0,pin_PWM_left2,1000);
  ///pwm_right_write(300);
   //sensor_electromagnet_read();
- // printf("%lld\n",motor_right_pwm1);
+ //printf("%lld\n",omron_encoder_right_now);
+    //float  OutData[4];
+    //OutData[0] = 1;
+    //OutData[1] = 2;
+    //OutData[2] = 3 ;
+    //OutData[3] = 4;
+    //SDS_OutPut_Data(OutData);
+    //vcan_sendware((uint8_t *)OutData,sizeof(OutData));
+ // vcan_sendware((uint8_t *)OutData,sizeof(OutData));
+
+}
 
 
 }
 
 
-}
-
-void print_fraction(float aaaa){
-   //char buffer [100] ;
-  int temp=(int)aaaa;
-  printf("%d.",(int)temp);
-  aaaa-=temp;
-  aaaa=fabs(aaaa);
-  temp=aaaa*10;
-  printf("%d\n",(int)temp);
-  
-  //sprintf(buffer,"%d\n",(int)angle);
-  
-
-}
 void  main1(void)
 {
   
@@ -131,7 +141,9 @@ void  main1(void)
   sensor_accelerator_read();
   sensor_accelerator_calculate();
   char buffer [100] ;
-
+  float  OutData[1];
+   // OutData[0]=angle;
+ // vcan_sendware((char *)OutData,sizeof(OutData));
   sprintf(buffer,"%d",(int)angle);
   //OLED_P8x16Str(5,0,"    ");
 
