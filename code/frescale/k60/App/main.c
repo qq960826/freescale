@@ -67,7 +67,7 @@ long long time_now_speed=0,time_last_speed=0;
 
 //开始计算变量声明
 //角度偏移
-float angle_offset=54.2;
+float angle_offset=54.6;
 //速度
 int Speed_R=0,Speed_L=0;
 

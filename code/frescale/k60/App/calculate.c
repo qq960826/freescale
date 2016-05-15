@@ -11,8 +11,8 @@
 #define kd_motor_right 0
 
 
-#define kp_angle 4.7
-#define ki_angle 0.2
+#define kp_angle 4.83
+#define ki_angle 0.7
 #define kd_angle 0
 
 
@@ -138,7 +138,11 @@ void angle_control(float angle_ideal){
   vol_gyro=vol_gyro*0.67;
   float ang=angle_offset+angle;
   ang=-ang;
-  
+  if(fabs(ang-0)<0.5){
+  Speed_L=0;
+  Speed_R=0;
+  return;
+  }
   
   Speed_L = (0-ang)*kp_angle-vol_gyro*ki_angle;//Ö±Á¢PID
   Speed_R = (0-ang)*kp_angle-vol_gyro*ki_angle;
