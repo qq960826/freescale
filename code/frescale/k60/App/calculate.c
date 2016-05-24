@@ -3,16 +3,15 @@
 #include "common.h"
 #define kp_motor_left 4
 #define ki_motor_left 5
-//#define kd_motor_left 2
 #define kd_motor_left 0
 
-#define kp_motor_right 4
+#define kp_motor_right 5
 #define ki_motor_right 5
 #define kd_motor_right 0
 
 
-#define kp_angle 4.83
-#define ki_angle 0.7
+#define kp_angle 3.5
+#define ki_angle -35
 #define kd_angle 0
 
 
@@ -102,6 +101,13 @@ if(flag_accelerometer==0){
   return;
   }
   angle= (angle +vol_gyro * (delta/1000))*0.75155-0.24845*angle_accZ;
+
+//float  OutData[4];
+  //OutData[0] = -angle;
+ // OutData[1] =  angle_accZ;
+ // OutData[2] = 3 ;
+  //OutData[3] = 4;
+ // vcan_sendware((uint8_t *)OutData,sizeof(OutData));
   //float  OutData[4];
 
   //OutData[0] = angle;
@@ -138,12 +144,7 @@ void angle_control(float angle_ideal){
   vol_gyro=vol_gyro*0.67;
   float ang=angle_offset+angle;
   ang=-ang;
-  if(fabs(ang-0)<0.5){
-  Speed_L=0;
-  Speed_R=0;
-  return;
-  }
-  
+
   Speed_L = (0-ang)*kp_angle-vol_gyro*ki_angle;//Ö±Á¢PID
   Speed_R = (0-ang)*kp_angle-vol_gyro*ki_angle;
   

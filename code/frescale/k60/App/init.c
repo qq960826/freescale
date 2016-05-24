@@ -34,6 +34,7 @@ void pit_hander_omron_encoder(){
   
   FTM_QUAD_clean(FTM1);
   FTM_QUAD_clean(FTM2);
+  
   PIT_Flag_Clear(PIT1);
 if(!STOP){
   motor_left_pid(Speed_L);
